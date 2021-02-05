@@ -1,0 +1,6 @@
+framework module Pods_____1________ {
+  umbrella header "Pods-דוח 1 אוטומטי-umbrella.h"
+
+  export *
+  module * { export * }
+}

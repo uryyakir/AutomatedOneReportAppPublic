@@ -1,0 +1,12 @@
+line_length:
+- 500  # warning
+
+disabled_rules:
+- identifier_name
+- implicit_getter
+- statement_position
+- large_tuple
+- type_body_length
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods 

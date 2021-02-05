@@ -1,0 +1,70 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.6.1)
+  - FlexColorPicker (1.4.2)
+  - Google-Mobile-Ads-SDK (7.55.1):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.9.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - PromisesObjC (1.2.11)
+  - SwiftLint (0.41.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - FlexColorPicker
+  - Google-Mobile-Ads-SDK (~> 7.55.0)
+  - SwiftLint
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - FlexColorPicker
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - SwiftLint
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d7a91adbc3aa8126aadc070f1276b14216bfadd4
+  FlexColorPicker: d7ed5cfd8ceb936f2930e4e30629f9448967a5f8
+  Google-Mobile-Ads-SDK: f206aff290f26fde422495c6cd187e50efbed57e
+  GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 82ec21711f21841deef311e4e8eed8d5a6121bf9
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8400C0B4254F99D600BE9CCA /* ServerAPICommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C0B3254F99D600BE9CCA /* ServerAPICommunication.swift */; };
+		841E0BE425857E090030F267 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841E0BE325857E090030F267 /* StoreKit.framework */; };
+		841E0BE725857E620030F267 /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E0BE625857E620030F267 /* IAPHandler.swift */; };
+		841E0BEA2585860F0030F267 /* IAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E0BE92585860F0030F267 /* IAPViewController.swift */; };
+		841E0BED25858A1E0030F267 /* IAPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E0BEC25858A1E0030F267 /* IAPConfig.swift */; };
+		841E0BF02585A27E0030F267 /* IAPStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E0BEF2585A27E0030F267 /* IAPStackView.swift */; };
+		843FE3EA25235462001ECC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FE3E925235462001ECC53 /* AppDelegate.swift */; };
+		843FE3EC25235462001ECC53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FE3EB25235462001ECC53 /* SceneDelegate.swift */; };
+		843FE3EE25235462001ECC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FE3ED25235462001ECC53 /* ViewController.swift */; };
+		843FE3F325235464001ECC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843FE3F225235464001ECC53 /* Assets.xcassets */; };
+		843FE3F625235464001ECC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843FE3F425235464001ECC53 /* LaunchScreen.storyboard */; };
+		846057FE253B4CB3008DFFC3 /* ReportInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846057FD253B4CB3008DFFC3 /* ReportInputViewController.swift */; };
+		84792C322579B7DF0087951C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792C312579B7DF0087951C /* SettingsViewController.swift */; };
+		84792C362579BE620087951C /* SettingsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792C352579BE620087951C /* SettingsConfig.swift */; };
+		84A3996A257B272F00750E5C /* SettingsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A39969257B272F00750E5C /* SettingsStackView.swift */; };
+		84B000A2252A061800B1C2F5 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B000A1252A061800B1C2F5 /* WebViewViewController.swift */; };
+		84B000A9252BCB4300B1C2F5 /* ReportInputStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B000A8252BCB4200B1C2F5 /* ReportInputStackView.swift */; };
+		84B000B1252BF60C00B1C2F5 /* TODOs.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84B000B0252BF60C00B1C2F5 /* TODOs.rtf */; };
+		84E3AD5C25622CC3002E35BF /* AlertControllersSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD5B25622CC3002E35BF /* AlertControllersSetup.swift */; };
+		84E3AD5F25622F23002E35BF /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD5E25622F22002E35BF /* GlobalVariables.swift */; };
+		84E3AD6225623247002E35BF /* SimpleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD6125623247002E35BF /* SimpleExtensions.swift */; };
+		84E3AD652562CF3F002E35BF /* RemoteNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD642562CF3F002E35BF /* RemoteNotifications.swift */; };
+		84E3AD682562D780002E35BF /* ReportInputHorizStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD672562D780002E35BF /* ReportInputHorizStackView.swift */; };
+		84E3AD8325636A06002E35BF /* AdMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD8225636A06002E35BF /* AdMob.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		597AF0FDEB162511F415BC69 /* Pods-דוח 1 אוטומטי.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-דוח 1 אוטומטי.release.xcconfig"; path = "Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי.release.xcconfig"; sourceTree = "<group>"; };
+		79B32B2C5CC92A0676DEB117 /* Pods-AutomatedOneReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatedOneReport.debug.xcconfig"; path = "Target Support Files/Pods-AutomatedOneReport/Pods-AutomatedOneReport.debug.xcconfig"; sourceTree = "<group>"; };
+		8400C0B3254F99D600BE9CCA /* ServerAPICommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAPICommunication.swift; sourceTree = "<group>"; };
+		841E0BE325857E090030F267 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		841E0BE625857E620030F267 /* IAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
+		841E0BE92585860F0030F267 /* IAPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPViewController.swift; sourceTree = "<group>"; };
+		841E0BEC25858A1E0030F267 /* IAPConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPConfig.swift; sourceTree = "<group>"; };
+		841E0BEF2585A27E0030F267 /* IAPStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPStackView.swift; sourceTree = "<group>"; };
+		841E407351E55D919E19F56D /* Pods_____1________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____1________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FE3E625235462001ECC53 /* דוח 1 אוטומטי.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "דוח 1 אוטומטי.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FE3E925235462001ECC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843FE3EB25235462001ECC53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		843FE3ED25235462001ECC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843FE3F225235464001ECC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843FE3F525235464001ECC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843FE3F725235464001ECC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844D025A257015840053CC8A /* דוח 1 אוטומטי.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "דוח 1 אוטומטי.entitlements"; sourceTree = "<group>"; };
+		846057FD253B4CB3008DFFC3 /* ReportInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInputViewController.swift; sourceTree = "<group>"; };
+		84792C312579B7DF0087951C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		84792C352579BE620087951C /* SettingsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsConfig.swift; sourceTree = "<group>"; };
+		84A39969257B272F00750E5C /* SettingsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStackView.swift; sourceTree = "<group>"; };
+		84B000A1252A061800B1C2F5 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		84B000A8252BCB4200B1C2F5 /* ReportInputStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInputStackView.swift; sourceTree = "<group>"; };
+		84B000B0252BF60C00B1C2F5 /* TODOs.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = TODOs.rtf; sourceTree = "<group>"; };
+		84E3AD5B25622CC3002E35BF /* AlertControllersSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllersSetup.swift; sourceTree = "<group>"; };
+		84E3AD5E25622F22002E35BF /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		84E3AD6125623247002E35BF /* SimpleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExtensions.swift; sourceTree = "<group>"; };
+		84E3AD642562CF3F002E35BF /* RemoteNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNotifications.swift; sourceTree = "<group>"; };
+		84E3AD672562D780002E35BF /* ReportInputHorizStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInputHorizStackView.swift; sourceTree = "<group>"; };
+		84E3AD8225636A06002E35BF /* AdMob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMob.swift; sourceTree = "<group>"; };
+		9851AD862E27AA8998A33BA9 /* Pods-AutomatedOneReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatedOneReport.release.xcconfig"; path = "Target Support Files/Pods-AutomatedOneReport/Pods-AutomatedOneReport.release.xcconfig"; sourceTree = "<group>"; };
+		A99D94464BABC55459F03B14 /* Pods-דוח 1 אוטומטי.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-דוח 1 אוטומטי.debug.xcconfig"; path = "Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843FE3E325235462001ECC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841E0BE425857E090030F267 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045AA52466B69F2672252627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B32B2C5CC92A0676DEB117 /* Pods-AutomatedOneReport.debug.xcconfig */,
+				9851AD862E27AA8998A33BA9 /* Pods-AutomatedOneReport.release.xcconfig */,
+				A99D94464BABC55459F03B14 /* Pods-דוח 1 אוטומטי.debug.xcconfig */,
+				597AF0FDEB162511F415BC69 /* Pods-דוח 1 אוטומטי.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4829760C22E940FF5A0480E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841E0BE325857E090030F267 /* StoreKit.framework */,
+				841E407351E55D919E19F56D /* Pods_____1________.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841E0BE525857E3C0030F267 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				841E0BE625857E620030F267 /* IAPHandler.swift */,
+				841E0BE92585860F0030F267 /* IAPViewController.swift */,
+				841E0BEC25858A1E0030F267 /* IAPConfig.swift */,
+				841E0BEF2585A27E0030F267 /* IAPStackView.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		843FE3DD25235462001ECC53 = {
+			isa = PBXGroup;
+			children = (
+				844D025A257015840053CC8A /* דוח 1 אוטומטי.entitlements */,
+				843FE3E825235462001ECC53 /* AutomatedOneReport */,
+				843FE3E725235462001ECC53 /* Products */,
+				045AA52466B69F2672252627 /* Pods */,
+				4829760C22E940FF5A0480E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		843FE3E725235462001ECC53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843FE3E625235462001ECC53 /* דוח 1 אוטומטי.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843FE3E825235462001ECC53 /* AutomatedOneReport */ = {
+			isa = PBXGroup;
+			children = (
+				841E0BE525857E3C0030F267 /* IAP */,
+				84792C302579B7C60087951C /* Settings */,
+				84E3ADB725647019002E35BF /* AdMob */,
+				84E3ADB625646FFA002E35BF /* Globals */,
+				84E3ADB525646FD6002E35BF /* Others */,
+				84E3ADB325646FAD002E35BF /* WebViewPage */,
+				84E3ADAF25646F34002E35BF /* ReportInputPage */,
+				84E3ADAC25646EC0002E35BF /* ServerCommunication */,
+				843FE3ED25235462001ECC53 /* ViewController.swift */,
+				843FE3E925235462001ECC53 /* AppDelegate.swift */,
+				843FE3EB25235462001ECC53 /* SceneDelegate.swift */,
+			);
+			path = AutomatedOneReport;
+			sourceTree = "<group>";
+		};
+		84792C302579B7C60087951C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				84792C312579B7DF0087951C /* SettingsViewController.swift */,
+				84792C352579BE620087951C /* SettingsConfig.swift */,
+				84A39969257B272F00750E5C /* SettingsStackView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		84E3ADAC25646EC0002E35BF /* ServerCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				84E3AD5B25622CC3002E35BF /* AlertControllersSetup.swift */,
+				84E3AD642562CF3F002E35BF /* RemoteNotifications.swift */,
+				8400C0B3254F99D600BE9CCA /* ServerAPICommunication.swift */,
+			);
+			path = ServerCommunication;
+			sourceTree = "<group>";
+		};
+		84E3ADAF25646F34002E35BF /* ReportInputPage */ = {
+			isa = PBXGroup;
+			children = (
+				846057FD253B4CB3008DFFC3 /* ReportInputViewController.swift */,
+				84B000A8252BCB4200B1C2F5 /* ReportInputStackView.swift */,
+				84E3AD672562D780002E35BF /* ReportInputHorizStackView.swift */,
+			);
+			path = ReportInputPage;
+			sourceTree = "<group>";
+		};
+		84E3ADB325646FAD002E35BF /* WebViewPage */ = {
+			isa = PBXGroup;
+			children = (
+				84B000A1252A061800B1C2F5 /* WebViewViewController.swift */,
+			);
+			path = WebViewPage;
+			sourceTree = "<group>";
+		};
+		84E3ADB525646FD6002E35BF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				843FE3F425235464001ECC53 /* LaunchScreen.storyboard */,
+				843FE3F225235464001ECC53 /* Assets.xcassets */,
+				843FE3F725235464001ECC53 /* Info.plist */,
+				84B000B0252BF60C00B1C2F5 /* TODOs.rtf */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		84E3ADB625646FFA002E35BF /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				84E3AD5E25622F22002E35BF /* GlobalVariables.swift */,
+				84E3AD6125623247002E35BF /* SimpleExtensions.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		84E3ADB725647019002E35BF /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				84E3AD8225636A06002E35BF /* AdMob.swift */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843FE3E525235462001ECC53 /* דוח 1 אוטומטי */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843FE3FA25235464001ECC53 /* Build configuration list for PBXNativeTarget "דוח 1 אוטומטי" */;
+			buildPhases = (
+				ADE0C7DA51FAA33594021B7F /* [CP] Check Pods Manifest.lock */,
+				8401B1E625734CBB001515E2 /* ShellScript */,
+				843FE3E225235462001ECC53 /* Sources */,
+				843FE3E325235462001ECC53 /* Frameworks */,
+				843FE3E425235462001ECC53 /* Resources */,
+				D3C7FF015E7A862E4B2F52ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "דוח 1 אוטומטי";
+			productName = AutomatedOneReport;
+			productReference = 843FE3E625235462001ECC53 /* דוח 1 אוטומטי.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843FE3DE25235462001ECC53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					843FE3E525235462001ECC53 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 843FE3E125235462001ECC53 /* Build configuration list for PBXProject "AutomatedOneReport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843FE3DD25235462001ECC53;
+			productRefGroup = 843FE3E725235462001ECC53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843FE3E525235462001ECC53 /* דוח 1 אוטומטי */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843FE3E425235462001ECC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B000B1252BF60C00B1C2F5 /* TODOs.rtf in Resources */,
+				843FE3F625235464001ECC53 /* LaunchScreen.storyboard in Resources */,
+				843FE3F325235464001ECC53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8401B1E625734CBB001515E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		ADE0C7DA51FAA33594021B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-דוח 1 אוטומטי-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C7FF015E7A862E4B2F52ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843FE3E225235462001ECC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843FE3EE25235462001ECC53 /* ViewController.swift in Sources */,
+				84792C362579BE620087951C /* SettingsConfig.swift in Sources */,
+				843FE3EA25235462001ECC53 /* AppDelegate.swift in Sources */,
+				841E0BE725857E620030F267 /* IAPHandler.swift in Sources */,
+				841E0BF02585A27E0030F267 /* IAPStackView.swift in Sources */,
+				84B000A2252A061800B1C2F5 /* WebViewViewController.swift in Sources */,
+				84A3996A257B272F00750E5C /* SettingsStackView.swift in Sources */,
+				84E3AD5F25622F23002E35BF /* GlobalVariables.swift in Sources */,
+				84E3AD8325636A06002E35BF /* AdMob.swift in Sources */,
+				846057FE253B4CB3008DFFC3 /* ReportInputViewController.swift in Sources */,
+				84E3AD6225623247002E35BF /* SimpleExtensions.swift in Sources */,
+				843FE3EC25235462001ECC53 /* SceneDelegate.swift in Sources */,
+				8400C0B4254F99D600BE9CCA /* ServerAPICommunication.swift in Sources */,
+				84792C322579B7DF0087951C /* SettingsViewController.swift in Sources */,
+				84E3AD652562CF3F002E35BF /* RemoteNotifications.swift in Sources */,
+				84E3AD5C25622CC3002E35BF /* AlertControllersSetup.swift in Sources */,
+				841E0BED25858A1E0030F267 /* IAPConfig.swift in Sources */,
+				84B000A9252BCB4300B1C2F5 /* ReportInputStackView.swift in Sources */,
+				84E3AD682562D780002E35BF /* ReportInputHorizStackView.swift in Sources */,
+				841E0BEA2585860F0030F267 /* IAPViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843FE3F425235464001ECC53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843FE3F525235464001ECC53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843FE3F825235464001ECC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843FE3F925235464001ECC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843FE3FB25235464001ECC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99D94464BABC55459F03B14 /* Pods-דוח 1 אוטומטי.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "דוח 1 אוטומטי.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.19;
+				DEVELOPMENT_TEAM = DK2JQD2M6M;
+				INFOPLIST_FILE = AutomatedOneReport/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "club.automated-one-report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		843FE3FC25235464001ECC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597AF0FDEB162511F415BC69 /* Pods-דוח 1 אוטומטי.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "דוח 1 אוטומטי.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.19;
+				DEVELOPMENT_TEAM = DK2JQD2M6M;
+				INFOPLIST_FILE = AutomatedOneReport/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "club.automated-one-report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843FE3E125235462001ECC53 /* Build configuration list for PBXProject "AutomatedOneReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843FE3F825235464001ECC53 /* Debug */,
+				843FE3F925235464001ECC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843FE3FA25235464001ECC53 /* Build configuration list for PBXNativeTarget "דוח 1 אוטומטי" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843FE3FB25235464001ECC53 /* Debug */,
+				843FE3FC25235464001ECC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843FE3DE25235462001ECC53 /* Project object */;
+}

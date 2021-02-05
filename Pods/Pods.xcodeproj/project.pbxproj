@@ -1,0 +1,2565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+		B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0751E336E40C6BEC9EAA8EC91255BAAB /* Build configuration list for PBXAggregateTarget "GoogleAppMeasurement" */;
+			buildPhases = (
+			);
+			dependencies = (
+				23C482FA429A9C9290E24DC047237721 /* PBXTargetDependency */,
+				1B3ABB11ED2831175F72F4916A9A4D01 /* PBXTargetDependency */,
+			);
+			name = GoogleAppMeasurement;
+		};
+		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D4502B7EC57138F1AB0EEABCF947BF8 /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F51131D7C1D67853ED8661708CC6F57A /* PBXTargetDependency */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0066C293E990368E6BA5738E78AE5454 /* GULNetworkURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F329F54BE28718A3427BB2FA845E4F /* GULNetworkURLSession.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		00DFB7240B7B74DE34A5CF777D7A0022 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 82118FD457A6C7B5E49C886F88F053D2 /* ActionSheetStringPicker.m */; };
+		012A4CB7AC430DD6EE5A81FB91834775 /* GULLoggerLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 562788C8833DA34ABFBA14EE613B9FCB /* GULLoggerLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050C98386724CDE4F0EC45BD1CE33EB8 /* FBLPromise+Then.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E6127C0413778AC06208CF1F9821B3C6 /* FBLPromise+Then.h */; };
+		0641E106D26F76FCD81B3F10CB930416 /* FBLPromise+Delay.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FED2F6FD890C03BA2328ADE7B3BF3DFF /* FBLPromise+Delay.h */; };
+		07D58FF9FA31A2BF5E2CA4BB310176C6 /* UIViewWithCommonInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61CE4CA1BAD28B9DDA33CCE2B3163BC /* UIViewWithCommonInit.swift */; };
+		097306C5A7915D0D9116D05AEB10128A /* LimitedGestureViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0031BFD499A969B1FD94B227E66D1A /* LimitedGestureViewDelegate.swift */; };
+		0DD0D7D8481A0B35706581ADFC0D3D05 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8B83FEFD087E322F1CF499D372319 /* CGRectExtension.swift */; };
+		13DDB6921ECC4FA00BEDABC13CE3E357 /* GULAppDelegateSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA89D546B0930AE0265535261B59D65 /* GULAppDelegateSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		14FF62A678D787705298EA34261DA1CB /* GULKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 23363F636D23A2D325C5660EE057E198 /* GULKeychainUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		18B57B52EB0899622037B495CCE4CEDE /* GULHeartbeatDateStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A13AF3E50A5B758A62AE1BAADF8ED7E9 /* GULHeartbeatDateStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		18FD358E79879C041BCA4B9745935D9F /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488EAC15CE810C1C00A3E39CFAC1B99 /* nanopb-dummy.m */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 827840464A29049AE98D98C4E137718B /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A2CEF7FC1C8BD63FFBA2F8A2A7ECE69 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 82498B2B725BA0AC8DA60D53A0A030B2 /* AbstractActionSheetPicker.m */; };
+		1A3FB3063B20E555AAFFA9688B21E7F0 /* GULLoggerCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F516BA26AD71B186B71F39A3F98ABD /* GULLoggerCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE640D8325D7845CEEF6E300A77B7C5 /* GULSceneDelegateSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA445865532C30002BCB303C392B53F /* GULSceneDelegateSwizzler.m */; };
+		1B7D004B25F336B051546D5776182ACF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA7FC4A11233E8E320E2AE7504D50A /* GradientView.swift */; };
+		1CD39DB36E257E75AEDF367E73C0F18B /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B1C639DC14DAD0B2FF53A395263D1 /* ActionSheetDistancePicker.m */; };
+		1DFCE33479FF90BC23160116B85301ED /* GULApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E1437BA5A27503958D49FBCFCD57969A /* GULApplication.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1E6ED1C42B8230398ED65978B2C73FBF /* ComponentSliderControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7855E8A48B927ED00C5D6F84881D063 /* ComponentSliderControls.swift */; };
+		1F34954503AA438EDCE56B6C0C4B1572 /* ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A7F97032667C32275C2DB093F07274 /* ColorPickerDelegate.swift */; };
+		211105F6306294D2543942BD8430147D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		2217B09085C42A04A7FA22699722ABCB /* CustomColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498468122FBC9C71243739CB8634AB60 /* CustomColorPickerViewController.swift */; };
+		22B717F4D4DB6526A40871DC74AAE5AB /* FBLPromise+Await.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 20BD4ECA08C3A9BD19760061900ECF61 /* FBLPromise+Await.h */; };
+		242306585823495459703FFDDEED371C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		24D28E124DD73E3AFE021ECCA2B351F8 /* GULReachabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FB4DD5CBB19AF845AAA4E07DF6AF43 /* GULReachabilityChecker.m */; };
+		2514EF71326883B7A3108130B6BBB047 /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC6D870B869F3A4527949750A9C269C /* FBLPromise+Reduce.m */; };
+		273C2505751C610D7FBF877BA4A04B38 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E00BA4E78B36B27299847A29276BBF /* FBLPromise+Catch.h */; };
+		2860B8179593C0EF97309078F41E52E6 /* FBLPromise+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB0387DB4F4BD753F04D821285AFF22 /* FBLPromise+Validate.h */; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA051D351DDD52A94EF3C14E9C3A399 /* SwiftyJSON-dummy.m */; };
+		2C2D5F1F96B4AD73EDC95135BEF2C2A1 /* FBLPromise+Any.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EAF7C5A61AB2E30E5D3EF9AF971FBB /* FBLPromise+Any.h */; };
+		2CB989802A26E0B2DA3C6B98355C007E /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B508B009C6AA427C6018E22D5B9ACA /* FBLPromise+Validate.m */; };
+		2E30ABBD0EB1DA81F8C9789112993A98 /* GULSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CAECD79D789188F4AC6DC7639D587A /* GULSwizzler.m */; };
+		2E5F922CF0E1BF8E421012B4D231CAE0 /* CircleShapedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C72173BB4A2C589C61434A4800825C /* CircleShapedView.swift */; };
+		2FAE947A69299CFC2679E64EF087A562 /* FBLPromise+Then.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F1C18FA6B94BCAB010FA2507FA7198 /* FBLPromise+Then.m */; };
+		30745457E910F251B9FBF69B5764731F /* FBLPromise+Retry.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E8C00C8478FED3D5948B0B41B9A201A4 /* FBLPromise+Retry.h */; };
+		30C5772E2D03BFED463674797AA3A5C9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7184B5EE7A3701EDA90E6AD291AD9F /* UIViewExtension.swift */; };
+		31780B62AC8B44667EA384835E9B9B54 /* FBLPromise+Retry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5205B6014D9F6545DC2F7AA72DCF56A0 /* FBLPromise+Retry.m */; };
+		3210D0B4982224A1F9ADAEBA1CCABA94 /* FBLPromise+Always.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F631C4047EB574EBF8FA69B9823346 /* FBLPromise+Always.h */; };
+		32165B3A0682954DD05178C9A7ED1187 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D9AFFDB866E83F6AC97A51D413F267 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321A0A66714BB8DC08B553705470752B /* GULMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC188D27675C533DF64334CEFFC5991 /* GULMutableDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		32B1CA6089E32C7FB4CA42E21B68300F /* Pods-דוח 1 אוטומטי-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1B366573A4FC861D00AE13B975B0F /* Pods-דוח 1 אוטומטי-dummy.m */; };
+		356A2B6A4D16AA71975361AA331AE04B /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E64875523BF64A3A870BDCCBBA1A38B /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		3637C3AFF2C81520CB3E23495055AB9B /* FBLPromises.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = DAD4C98CB4F55C453F84B52A47FE470F /* FBLPromises.h */; };
+		3638E1F4B51A24165FE387F643770A41 /* GULSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1FA4FEF23D78F12F0CA6075081695B /* GULSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		38BEE72A7D863135771FFDE2D16749C8 /* FBLPromise+Any.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 28EAF7C5A61AB2E30E5D3EF9AF971FBB /* FBLPromise+Any.h */; };
+		38D877FC5933B063D071D04EDEA38176 /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 76660E598AF0A4233D618C1DAAD67DB7 /* FBLPromiseError.h */; };
+		39126E521E95EB81863AFA9ECF15D40C /* FBLPromise+Race.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E6EC179E866BAD1B01BDD37786883302 /* FBLPromise+Race.h */; };
+		3C99F666A03D126A532B981C376D36E2 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AF9643E208EC90D3F7CABA1E18D23 /* ActionSheetDatePicker.m */; };
+		3D9AE0FBE76152F79057FBD97A73C2C6 /* GULNSDataInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF7459A1E9205A1993DB5B07C05F483 /* GULNSDataInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		40C9F50AF59E71E17FD31575E05DF520 /* FBLPromise+Wrap.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = DA8B3F83F835C4668C8F69E63D131DB5 /* FBLPromise+Wrap.h */; };
+		43E3F86FE0D24056B34321EBC1870A1C /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339C3C988A92697FCDCB065DDA946F9B /* ColorPickerController.swift */; };
+		457567E7EB3938197F59C460F16E4D36 /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD4C98CB4F55C453F84B52A47FE470F /* FBLPromises.h */; };
+		46579DDD7DF718AD4FC7893691C647A2 /* FBLPromise+All.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8B1CAAE9A18FD200CF0FBD8B312FD9FB /* FBLPromise+All.h */; };
+		471AA39B5A0F425E650E2B9E69F86B2F /* PromisesObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DBFE8E94073848F2CB8C8BA7F75052 /* PromisesObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1444F4264AECC4ABAC53E220A3D32F /* GULSceneDelegateSwizzler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6003246B567FDF57DE9BB221ADF5BF2E /* GULSceneDelegateSwizzler_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A341F155DEBB4EF5F8166DF2AA6CD61 /* PromisesObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381309673A67F29CAB771DF3E31B85FD /* PromisesObjC-dummy.m */; };
+		4B1065DDBFB423D0641C557A6BABE221 /* FBLPromise+Async.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BD559CC1B4621913BF4492689FDC3B /* FBLPromise+Async.h */; };
+		4DE74B5609844FB18B51B3A9EAA90C03 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F89FC1594B9190134BEDE5B7B66605F /* FBLPromises.framework */; };
+		4E2FA5ADCCB0EAAD860217EDFF065AA4 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = C7990670C8833DBD0C2BD815F39B1D88 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9C2342E3A0CA658965DB304C25729D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41819FC0BAD9FC7BA06B3ACE1FD921A /* Security.framework */; };
+		4F2A411E89DB111CFB15A4CA23A79D64 /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F0C14F196E5B0030BF0EF09DAB3F9D /* FBLPromise+Do.m */; };
+		501D9D8444A4AC2A50E059E60053F48A /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C001A2E2F0D8CDB9749FA5ACCB7353 /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508E7AEAFDE3A6922BA425DF6155F804 /* DefaultColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C970B68446F4FD495CE36C624106049 /* DefaultColorPickerViewController.swift */; };
+		5349FAF6B80C5CF36B56781E112FCEDB /* GULAppDelegateSwizzler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F01DD1DF9B2B7E742A4EFF3E6275914 /* GULAppDelegateSwizzler_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		536894393A06EFB67505F35492D0EDFB /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C86B4CA56CB2E2EBBCB1DEC2FA0150 /* FBLPromise.h */; };
+		54D224241A014C4C6DCBD2026B429D60 /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 62205E85BC4D2CCEBD374E3B133663B6 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F0D998DA3C010598E9D65B29560743 /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FA0F8FCE26B145762CAB1ED6599ABE /* FBLPromisePrivate.h */; };
+		554CC04BEE793ECCCE92867C3F8B1F97 /* GULNetworkLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5A84479C86B283FBB36133BC0FFCF2 /* GULNetworkLoggerProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57729609A8A2E3027BCC269ED35F7C9D /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 520FA8B91B0D563CC029AB154918400E /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		584C169D5F3F42CB2F89B5BFAAB14B31 /* GULSecureCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FD825BBFE8AE6BAB7FA90CB935907ADB /* GULSecureCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		58B30BF7610E3C67D665AD92490D22B7 /* GULNetworkMessageCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D2130D39B87182D81D890DD8653AA701 /* GULNetworkMessageCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		58EA924EC9CDC460E0AB11C907338536 /* AbstractColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D9B08D498D0A6317D0267CAF33699 /* AbstractColorControl.swift */; };
+		59390C035BF9CD2BF2B277309C6672B1 /* FBLPromise+Always.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D8DEF4CF5ACF2A02936F44E4B464E7 /* FBLPromise+Always.m */; };
+		59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 986195F6FC04F0451B5F9F3C76CE0AF1 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A0D77601C8C501D867F815BA5F4AB2 /* PaletteControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94091192B2AF998C9ED5A88DC7CE8E7 /* PaletteControls.swift */; };
+		5A1011970D44FEDC0F2F5A9EB2C402DA /* GULAppDelegateSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC968C1084E904DB972E505227FA93 /* GULAppDelegateSwizzler.m */; };
+		5A483F32F096CAF40AB81BEA5744ABD0 /* FBLPromise+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABC167A7422E82B7E4D262A25C52EF /* FBLPromise+Async.m */; };
+		5AA17A363BE016D85BBE2D5811E5C5F1 /* GULOriginalIMPConvenienceMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2F3C8CB1B7856F32581174AF9AADD3 /* GULOriginalIMPConvenienceMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5C2BCCBD60827376E943BA8AAF694AB3 /* GULNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B42B97B6489C2C0BE733ED60EC66411 /* GULNSData+zlib.m */; };
+		5C772C420D01D954799431F4AA534573 /* GULReachabilityChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 230BFE8FD031058F64D7D3B71295D780 /* GULReachabilityChecker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5C81CB2E64A3C184DD21AA98225318FE /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0313D8213F9479A57DFD872BB7C2C0 /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA50929E58AD073A6FAA31F855BBE01 /* PaletteAwareScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FFE2B66C337290408DAD69C2AF66F6 /* PaletteAwareScrollView.swift */; };
+		5E2E7D406AE90AD8C485F9546A12B9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB08DDBC63630151969EF09D37ABBE7 /* UIKit.framework */; };
+		5E99A3596F5F638076161D06AB2CCC56 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FD8C76BD1B8B3E59380334C82AE362 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602B14B36159F3BB34D2AA6DD1A8484B /* FBLPromise+Timeout.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E44E6E01B806DC4644577046C105EFFE /* FBLPromise+Timeout.h */; };
+		610327AC4F84263FE7824ACD379EE002 /* GULHeartbeatDateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC356E3DC4FF33D84B2A9AC12F829AC /* GULHeartbeatDateStorage.m */; };
+		61EE5ED52B7595E35B0BD57761511FED /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E91AF4665E7494EAC48A42709E0B3E /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628E4E41AF4803E356AC335074A199B2 /* FlexColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D7E28916C810489A4CC4E9515862CC /* FlexColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E52770944DE67E700217FEB8553005 /* ComponentSliderDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED232D497200782D8E96AB553932D66 /* ComponentSliderDelegates.swift */; };
+		65BECDB7E7C7DC8E0BF92BB909BF0FEE /* ColorControlContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292EF2291EA9397A56097E0AACF9FB44 /* ColorControlContentView.swift */; };
+		660341A803CC005C2F9BCF5CEA0EB983 /* FBLPromise+Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = E44E6E01B806DC4644577046C105EFFE /* FBLPromise+Timeout.h */; };
+		67BC6AE854A9420F38C9477834DD9D11 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = F61A80EDE298C9E8D0039F20DCD0AF55 /* FBLPromise.m */; };
+		688242B4B830182D58082F29DF1A5210 /* FBLPromise+Catch.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C1E00BA4E78B36B27299847A29276BBF /* FBLPromise+Catch.h */; };
+		6970FE083E3EB0101F07AABD048FCA86 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005AF1510EEB1CC7D5E0198583F4D48 /* UIColorExtension.swift */; };
+		6A79626FEC7404480D85B72A4580773F /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BEB8EE3B8E5329D5D99D580D2D6CC /* DistancePickerView.m */; };
+		6BD08F9E1C9B2AEAB15B3CD8FB3AE2F9 /* RadialHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67B9FB346E05F752C448EFD762217 /* RadialHSBPaletteDelegate.swift */; };
+		6C8A266BD3F40A3BC088A599DF634A08 /* FBLPromise+Do.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5A5F48AFF67A8BF8C665D2429058016A /* FBLPromise+Do.h */; };
+		6EB6E2701A2BAFA7A9813256F8DC0CA8 /* FBLPromise+Race.m in Sources */ = {isa = PBXBuildFile; fileRef = F207B818838819CD4816FC4856CB500C /* FBLPromise+Race.m */; };
+		6FAF0B1E198BB86EAF0F9A056E030AC3 /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F35BB52F511595E580CBB0063BBF2 /* FBLPromise+Recover.m */; };
+		6FF09F8DD8ABC054228046AD4BF674E3 /* ColorPaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926ADD161F2130F158F6F16F087377F4 /* ColorPaletteControl.swift */; };
+		717A554226F99383F1EDB062B925A74E /* ColorPreviewWithHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE894EA6F882E77C2BF40BF86DD77A /* ColorPreviewWithHex.swift */; };
+		7201235914FA344CF0F37B31C94DF58F /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8340D32804C412F336BA05FF2F939081 /* SWActionSheet.m */; };
+		72B4ACD83721768BD2B44655A69C9272 /* GULMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAB9B8C7BF23DE7242C126AEB61E795 /* GULMutableDictionary.m */; };
+		73C4BB11D9B72EB10CB956440BE94D07 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402C5FA6F594F7B8D44A36C17C12672 /* CGPointExtension.swift */; };
+		73EDAB974988C986520893826CF70ECE /* GoogleUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08158988503FB5CDD08EF8F649FC040D /* GoogleUtilities-dummy.m */; };
+		740097520AF741FD2D6C5DD4441D6775 /* FBLPromise+Reduce.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 372B99AEEA1A8D3C5D9874FBE7177CE9 /* FBLPromise+Reduce.h */; };
+		76AE98A33427BB791425B1AD32867D9A /* FBLPromise+Recover.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 804CE3873451BB905E53178C2EA63BE8 /* FBLPromise+Recover.h */; };
+		77870FA455398DA194AF35C5391B8BF6 /* GULLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A838DE0B2E0AA3DB99249F23C23C0DEB /* GULLogger.m */; };
+		792104130148816A97013C469FF20B56 /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8B3F83F835C4668C8F69E63D131DB5 /* FBLPromise+Wrap.h */; };
+		7A5FA2AF26C1E051151BC66F3C8639F8 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DE6FD64CDCA887B90DC563EA144CCE /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD34840ACFAD9A4B413774EA7567F3 /* SwiftyJSON.swift */; };
+		7B8CD99C3781CAAAEAC354DD9D66F964 /* ColorPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977DB6022BBB157B3C851427FA7D2E69 /* ColorPaletteDelegate.swift */; };
+		7C45F2BEAFD9BF8D374AB55C40567CDD /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD44469D23D58697FE80796F9855F80 /* FBLPromise+Testing.m */; };
+		7CE26796DFB4818A32EF6E1EB9C50F64 /* GULNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9D82EA1FA26218F666CE4E703C36C6 /* GULNetworkConstants.m */; };
+		7D5BB9F92104834E8077D826DD345E77 /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = FED2F6FD890C03BA2328ADE7B3BF3DFF /* FBLPromise+Delay.h */; };
+		7D7D6E34E372249C53A47E16ACB56F9A /* GULReachabilityChecker+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CD78EE39CAF1C2303369CEAD80B3EB44 /* GULReachabilityChecker+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DAC25D41DEDD5A74FF11AC1AFFF33F2 /* FBLPromiseError.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 76660E598AF0A4233D618C1DAAD67DB7 /* FBLPromiseError.h */; };
+		7DD551ECA2968E92E5FA9196DFDD5F99 /* ControlWithThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB36276089A5DCB6B2A3E3D7DDF85BA4 /* ControlWithThumbView.swift */; };
+		7EA387A49A510FB6AEB0DBD5464E08BD /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = 804CE3873451BB905E53178C2EA63BE8 /* FBLPromise+Recover.h */; };
+		7EE69C2F3D814A321021DE61650AD012 /* GULAppEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED78EB81B56F35FDA52E4D751671EFF /* GULAppEnvironmentUtil.m */; };
+		7F033167D3486CF00E5FA9711D78B653 /* FBLPromise+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F31E84E703CC88981DBE574107875A /* FBLPromise+Timeout.m */; };
+		7FA21D55CA7C5E6DE7A457BDF31DB293 /* ColorSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720FC2BA513039B0903C6D2E7723C09 /* ColorSliderControl.swift */; };
+		810FB4C6C56D51F04D43F9EDF072EF45 /* GULSceneDelegateSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0658401060A7D2142D7C14AC53E607 /* GULSceneDelegateSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		846532F274626418425727C65C85E7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		89872D37A1264E312EB97B8AC51F6A30 /* FBLPromise+Await.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BD4ECA08C3A9BD19760061900ECF61 /* FBLPromise+Await.h */; };
+		8F73BEBED23CC471E9C9A94DB0483974 /* FBLPromise+Do.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5F48AFF67A8BF8C665D2429058016A /* FBLPromise+Do.h */; };
+		911E2CDA33BE5FF56F1B5F61A8862924 /* FBLPromise+Wrap.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E574A261144AE2D8E0F73962F3742B /* FBLPromise+Wrap.m */; };
+		931D630FBFF9ED6C43A12B9012CA3DEF /* FBLPromise+Any.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFBEAA5E512C669FD08029850C6F54 /* FBLPromise+Any.m */; };
+		93A1EEBAB4393A5D728FFBF8241A9448 /* GULKeychainStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6A8ABB7B81F52340E91415D1E194 /* GULKeychainStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		94327BF293D3E896E852130A56588828 /* FBLPromise+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94FFCDC0EBCA2723C26A356BDD5A0B /* FBLPromise+Delay.m */; };
+		962434DC73678E1EDD58CF3104E3EAAF /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7753C0287F9126D153CD3C714CE2CEEA /* ActionSheetCustomPicker.m */; };
+		96303BE718F1F9F973F4D89CCB4946E3 /* GULNetworkURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FD83925A41EF103748A52EFD57F8 /* GULNetworkURLSession.m */; };
+		990C8073C16A021E9B2FD3DE870E5A9F /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C00C8478FED3D5948B0B41B9A201A4 /* FBLPromise+Retry.h */; };
+		9912BFE3AA2D7A7AC1DAA0B58F9C97F6 /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = AD18B10BCDFDE41A666125EBAF09C482 /* FBLPromise+Testing.h */; };
+		9EA53ED1604965B404EE9535A3863D2B /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B948EB2D13BDB840F78D2DB607AD49 /* HSBColor.swift */; };
+		9FABCEAC2CE30A8177DF78CD43B17581 /* GULNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9552B1C701A0AE9CDBEB2834C1A45DA4 /* GULNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB9DBF32F0BBC5E89608383C8EA2F6D /* GULSecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B67061FE3B72176618AF0C875B87AA38 /* GULSecureCoding.m */; };
+		A1237D1EEF827FF68FD99A8DD8BE73BF /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2605FD05A3EE5614941545A821ECC51C /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2EADB3927E9C72F610BDA7A888E1806 /* FBLPromise+Async.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A7BD559CC1B4621913BF4492689FDC3B /* FBLPromise+Async.h */; };
+		A3F160FE5699662CAAE5E56203589059 /* FBLPromise+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1CAAE9A18FD200CF0FBD8B312FD9FB /* FBLPromise+All.h */; };
+		A4713F508DF4F08175E6D19A2AA50952 /* GULAppEnvironmentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0567DE396ABDC048B3A7D5022852F3D7 /* GULAppEnvironmentUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A868736C16E241C474F261050A699189 /* GoogleUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3437F7282A17709F396992964C61A98A /* GoogleUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9036A49A6A1D65723A8DF68F9378D8A /* GULKeychainStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D0A36D6C8ECA72C019E9A88A6A4B70 /* GULKeychainStorage.m */; };
+		AA51A30B41AAF17ED91D5575A34C588F /* AdjustedHitBoxColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7291D54F37CC4FC7C2AD41FF84B8F50 /* AdjustedHitBoxColorControl.swift */; };
+		AB10AF9FA4C9DC0E87969DCE7AF55444 /* FBLPromise+Then.h in Headers */ = {isa = PBXBuildFile; fileRef = E6127C0413778AC06208CF1F9821B3C6 /* FBLPromise+Then.h */; };
+		AC6D598B695B5B2C1C54E08CBAB59937 /* GULNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0C648E72140A86B227E3BC7F795C7 /* GULNetwork.m */; };
+		AEBEDFF5DA642EEC89D0C5215DA47545 /* FBLPromise+Validate.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0AB0387DB4F4BD753F04D821285AFF22 /* FBLPromise+Validate.h */; };
+		AF9C22F5B39738B2C3B3608750AE08D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		B288F1279DC53D05CBEFE7EF5D7017BB /* GULNetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CFA4C8413C9E61A06D3FDD58B9BA8E /* GULNetworkConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B47F25C52815098D1B6FD0749048FEFD /* GULNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F182BECADAC594546D75800A6280427 /* GULNetwork.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5C5DB9F988BBA447BB8A33CEF3124BC /* ColorPickerControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B97A60DA2B2387979A818833CA18E /* ColorPickerControllerProtocol.swift */; };
+		B93BDDF7906B3B1FF35C3EF3D7FA6F05 /* FBLPromise+Await.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CD8EB3842B73BAEC5446FB07CFEDA /* FBLPromise+Await.m */; };
+		BA4D5B9391CFB20947FA96B06EDE7DCF /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = F67371518B8FDAE4A6A213242548F87F /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB1921DAD36B5638D8E81CDA4EF6AB15 /* Pods-דוח 1 אוטומטי-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E659F400A92E8D6EFBF27879A16DE0 /* Pods-דוח 1 אוטומטי-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE81222D459F1115D1C508E6F66C9C2C /* GULReachabilityMessageCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE72F530243B1FCD2BB886F11FA53D4 /* GULReachabilityMessageCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0B1DE05CABBD89231D61791493DAC2C /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D451DAF537EF9CE1B84BF6E497F6BF0 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FA04F6BE68E3E316F447CF9CBE3664 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3870F61DF4107958E7CD929DA9202980 /* ActionSheetMultipleStringPicker.m */; };
+		C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		C31A1EC6B8C14C595A14E46A9C8A34DB /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8E9034AD392AC9DA794FBA3B3CAC7 /* ActionSheetPicker-3.0-dummy.m */; };
+		C4B3CE40F5F6E2E65AAE939EE583C3A9 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16625E07DEC7A04156558E48FA035789 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5993393C55656F0AACCFA8E2AB5BEF6 /* FBLPromise.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 44C86B4CA56CB2E2EBBCB1DEC2FA0150 /* FBLPromise.h */; };
+		C65D0EE0041E43E7211946FD5B1E2CAD /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 37629B802904B07564C68AD96AFE7B2F /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C823F5ED4938DBEDE5BB0B09D21704B6 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE07A6016DAEF4184B3E546BAA581DA /* UIImageViewExtension.swift */; };
+		C8E3B6D1D900E64A816A45FBD10D5354 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E17171E2D58E60C37CF9C36DF36D0F11 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBFE0F0CB47360670906220C1A7FDAD7 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EC179E866BAD1B01BDD37786883302 /* FBLPromise+Race.h */; };
+		CC6A3A74D473B97C19668E230E72AD0F /* ColorPickerThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AF3C765E627221C7156377157D489 /* ColorPickerThumbView.swift */; };
+		CDB0BB1BE0434EACEC6D54AD5E3CE846 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5CBD46C7F310498674AFB12F68B7E6 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF23315072FD8B32E2D580C9FDA27616 /* GULKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B7742EAB60F61A25C90A3A43DD9B6B /* GULKeychainUtils.m */; };
+		D42CC5AECED9C607B4BA5C0D0E6EDF4C /* ColorSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02EA1E92B265753E2065163B4A7241 /* ColorSliderDelegate.swift */; };
+		DC3A134D104E4C0485DF18DA961DC7CD /* GULLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 456C20A0317D9BFF6F8797BF77997B29 /* GULLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DDCCFC277E0360223242B724C152D17B /* FBLPromisePrivate.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 90FA0F8FCE26B145762CAB1ED6599ABE /* FBLPromisePrivate.h */; };
+		DF9B2C6CBA2A730C11A2479EBD92043F /* ColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EA6BF22B17AC5EC04DBDAA12DFC4A1 /* ColorControl.swift */; };
+		E0D7E89FD3B59D435EFC5C84A1B4957D /* RectangularHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61239BC882D7A662367842DE3BF4B841 /* RectangularHSBPaletteDelegate.swift */; };
+		E0FAE2EEEE2AF98B6EA1B8B6F0B898BD /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E611560151929501D6C195D59A628B29 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E11CFECA49A9877BCE78D97CE15C8518 /* FBLPromise+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2954BF76FD6D0A29CF7A8BA8F8043E5C /* FBLPromise+Catch.m */; };
+		E3F5EF757906D46F0052D1DF76D6D97E /* FBLPromise+Testing.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = AD18B10BCDFDE41A666125EBAF09C482 /* FBLPromise+Testing.h */; };
+		E76578A335F843EED1EFD7CB83113F73 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = CF3A38DFC2A950E37F8A87D55D16A0DF /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		EA25AFF396829D757CD9FB440B50396D /* FBLPromise+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E0ACF43827CD998D4B19F3E2604D0 /* FBLPromise+All.m */; };
+		EAB465A1207D66DBA14B90762229AC21 /* FlexColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6F72739DE6F576FF607EE702FF1AE /* FlexColorPicker-dummy.m */; };
+		F503EEB37C9EB913A5729F272F0BEB57 /* FlexColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0155232E0273FED5CCE9E210814591D9 /* FlexColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5EEA46FA461EBE1BA796BBECDECCCC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		F665DB84FD0B72516846E6158BF1D9B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE297F6AA0DDAD12B4A783056C46B156 /* SystemConfiguration.framework */; };
+		F6D541970E1ACF2029A04CF95B3C85B1 /* LimitedGestureCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396A25DD72D73ABB8D73735779DF88D /* LimitedGestureCircleView.swift */; };
+		F7723B27C22FBDCD4FAA0AB6D879C67F /* FBLPromise+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B99AEEA1A8D3C5D9874FBE7177CE9 /* FBLPromise+Reduce.h */; };
+		F7A0DE31C56C4B610D8F93B6339D0D80 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B41C585664BB6D4A8EA268915DB8C742 /* ActionSheetLocalePicker.m */; };
+		F7C0FFF4ED4B8369F8479CEB3436C940 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82CD8005469A30F7D60C1D68D7C4B81 /* UIImageExtension.swift */; };
+		F83072233D84E2A9102738D34790D9EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB42089D233CB997836F18E857C173 /* Foundation.framework */; };
+		F83D8E7ACE437BD2BDB88E2F5DE81063 /* FBLPromise+Always.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 95F631C4047EB574EBF8FA69B9823346 /* FBLPromise+Always.h */; };
+		FC01A3BA9058BEC37EAF22BC9045CB3B /* FBLPromiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D72212738B315FFA16B682AB843583D /* FBLPromiseError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02650CF26A789FC1E7729CBD3C43D664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
+			remoteInfo = nanopb;
+		};
+		0E5CD91A06DE84E65BC0AAE183351201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+		165313150BECD2F9D10E9CD4780C93C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9A6DFBF33C0809BD9B32C8C8B776E8;
+			remoteInfo = FlexColorPicker;
+		};
+		1A24B2391CF5CFCDE8BF3F2F02E83DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+		25814C2EA7C73058E19197A723F44AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		2949B80F0EC8E40B46CE0F5D8DE73A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
+		};
+		53547B1DFEEEB174535B78ADDD847377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		55EB47EE7B4E01F86B3334BAA0289CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
+		};
+		57F9407E6B2A041A5C0FDC3661B6C0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
+			remoteInfo = nanopb;
+		};
+		69643D1A987C21C32B76CB0C0E8BD86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		BDBE64DEB599908D2F7B34C5EF4AEFD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43B25DDF20FCB9228471F8F5135C866;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		C7A5E8B2BCF5D34DC67620959CCF65D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
+			remoteInfo = GoogleAppMeasurement;
+		};
+		F859408B19099A6F0C6166AC65FF8D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
+			remoteInfo = GoogleAppMeasurement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE92BFB867D415D6E116CEAD683838D3 /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				46579DDD7DF718AD4FC7893691C647A2 /* FBLPromise+All.h in Copy . Public Headers */,
+				F83D8E7ACE437BD2BDB88E2F5DE81063 /* FBLPromise+Always.h in Copy . Public Headers */,
+				38BEE72A7D863135771FFDE2D16749C8 /* FBLPromise+Any.h in Copy . Public Headers */,
+				A2EADB3927E9C72F610BDA7A888E1806 /* FBLPromise+Async.h in Copy . Public Headers */,
+				22B717F4D4DB6526A40871DC74AAE5AB /* FBLPromise+Await.h in Copy . Public Headers */,
+				688242B4B830182D58082F29DF1A5210 /* FBLPromise+Catch.h in Copy . Public Headers */,
+				0641E106D26F76FCD81B3F10CB930416 /* FBLPromise+Delay.h in Copy . Public Headers */,
+				6C8A266BD3F40A3BC088A599DF634A08 /* FBLPromise+Do.h in Copy . Public Headers */,
+				39126E521E95EB81863AFA9ECF15D40C /* FBLPromise+Race.h in Copy . Public Headers */,
+				76AE98A33427BB791425B1AD32867D9A /* FBLPromise+Recover.h in Copy . Public Headers */,
+				740097520AF741FD2D6C5DD4441D6775 /* FBLPromise+Reduce.h in Copy . Public Headers */,
+				30745457E910F251B9FBF69B5764731F /* FBLPromise+Retry.h in Copy . Public Headers */,
+				E3F5EF757906D46F0052D1DF76D6D97E /* FBLPromise+Testing.h in Copy . Public Headers */,
+				050C98386724CDE4F0EC45BD1CE33EB8 /* FBLPromise+Then.h in Copy . Public Headers */,
+				602B14B36159F3BB34D2AA6DD1A8484B /* FBLPromise+Timeout.h in Copy . Public Headers */,
+				AEBEDFF5DA642EEC89D0C5215DA47545 /* FBLPromise+Validate.h in Copy . Public Headers */,
+				40C9F50AF59E71E17FD31575E05DF520 /* FBLPromise+Wrap.h in Copy . Public Headers */,
+				C5993393C55656F0AACCFA8E2AB5BEF6 /* FBLPromise.h in Copy . Public Headers */,
+				7DAC25D41DEDD5A74FF11AC1AFFF33F2 /* FBLPromiseError.h in Copy . Public Headers */,
+				3637C3AFF2C81520CB3E23495055AB9B /* FBLPromises.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DACEA579E47BB4CED03B54EB3EC2E5 /* Copy . Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				DDCCFC277E0360223242B724C152D17B /* FBLPromisePrivate.h in Copy . Private Headers */,
+			);
+			name = "Copy . Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0155232E0273FED5CCE9E210814591D9 /* FlexColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		019B8D7981387E5AE98F66A9C4A95EB9 /* GoogleUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		01DE6FD64CDCA887B90DC563EA144CCE /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		03D9AFFDB866E83F6AC97A51D413F267 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		04944F047FE1BC997999D712AED7DF71 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		0567DE396ABDC048B3A7D5022852F3D7 /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/Private/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
+		06C001A2E2F0D8CDB9749FA5ACCB7353 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		071156DE883AD7A85D271F3BA658062A /* GoogleUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleUtilities.modulemap; sourceTree = "<group>"; };
+		07FB4DD5CBB19AF845AAA4E07DF6AF43 /* GULReachabilityChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULReachabilityChecker.m; path = GoogleUtilities/Reachability/GULReachabilityChecker.m; sourceTree = "<group>"; };
+		08158988503FB5CDD08EF8F649FC040D /* GoogleUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleUtilities-dummy.m"; sourceTree = "<group>"; };
+		08E0C648E72140A86B227E3BC7F795C7 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
+		08FC5336534B811B8ED6F3ABFDCB048D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		0AB0387DB4F4BD753F04D821285AFF22 /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
+		0B42B97B6489C2C0BE733ED60EC66411 /* GULNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GULNSData+zlib.m"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.m"; sourceTree = "<group>"; };
+		0D72212738B315FFA16B682AB843583D /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
+		0D9D82EA1FA26218F666CE4E703C36C6 /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
+		0E1FA4FEF23D78F12F0CA6075081695B /* GULSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSwizzler.h; path = GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h; sourceTree = "<group>"; };
+		0F72577621999C733DDA817A08978097 /* Pods-דוח 1 אוטומטי-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-דוח 1 אוטומטי-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F89FC1594B9190134BEDE5B7B66605F /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1005AF1510EEB1CC7D5E0198583F4D48 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = FlexColorPicker/Classes/Utilities/UIColorExtension.swift; sourceTree = "<group>"; };
+		16625E07DEC7A04156558E48FA035789 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
+		18FD34840ACFAD9A4B413774EA7567F3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		1DA8E9034AD392AC9DA794FBA3B3CAC7 /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		1DC188D27675C533DF64334CEFFC5991 /* GULMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULMutableDictionary.h; path = GoogleUtilities/Network/Private/GULMutableDictionary.h; sourceTree = "<group>"; };
+		1E64875523BF64A3A870BDCCBBA1A38B /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		1E6CADC4B1C98525F239166246EA9367 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		20BD4ECA08C3A9BD19760061900ECF61 /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
+		230BFE8FD031058F64D7D3B71295D780 /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Private/GULReachabilityChecker.h; sourceTree = "<group>"; };
+		23363F636D23A2D325C5660EE057E198 /* GULKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULKeychainUtils.h; path = GoogleUtilities/Environment/Private/GULKeychainUtils.h; sourceTree = "<group>"; };
+		238C55FFA1FF438B25E7C0A2AEDB834B /* nanopb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.debug.xcconfig; sourceTree = "<group>"; };
+		250E0ACF43827CD998D4B19F3E2604D0 /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
+		2605FD05A3EE5614941545A821ECC51C /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		27CAECD79D789188F4AC6DC7639D587A /* GULSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSwizzler.m; path = GoogleUtilities/MethodSwizzler/GULSwizzler.m; sourceTree = "<group>"; };
+		27EA6BF22B17AC5EC04DBDAA12DFC4A1 /* ColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControl.swift; path = FlexColorPicker/Classes/Controls/ColorControl.swift; sourceTree = "<group>"; };
+		28BE894EA6F882E77C2BF40BF86DD77A /* ColorPreviewWithHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPreviewWithHex.swift; path = FlexColorPicker/Classes/Controls/ColorPreviewWithHex.swift; sourceTree = "<group>"; };
+		28EAF7C5A61AB2E30E5D3EF9AF971FBB /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
+		292EF2291EA9397A56097E0AACF9FB44 /* ColorControlContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControlContentView.swift; path = FlexColorPicker/Classes/Views/ColorControlContentView.swift; sourceTree = "<group>"; };
+		2954BF76FD6D0A29CF7A8BA8F8043E5C /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
+		2B9B8833E72D0F188D31F286F49FCB6C /* GoogleUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.release.xcconfig; sourceTree = "<group>"; };
+		2D0031BFD499A969B1FD94B227E66D1A /* LimitedGestureViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitedGestureViewDelegate.swift; path = FlexColorPicker/Classes/Utilities/LimitedGestureViewDelegate.swift; sourceTree = "<group>"; };
+		2DE72F530243B1FCD2BB886F11FA53D4 /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
+		2EA445865532C30002BCB303C392B53F /* GULSceneDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSceneDelegateSwizzler.m; path = GoogleUtilities/SceneDelegateSwizzler/GULSceneDelegateSwizzler.m; sourceTree = "<group>"; };
+		30C7893982BE7B2E33B095F3435DB339 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
+		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBLPromises.framework; path = PromisesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		339C3C988A92697FCDCB065DDA946F9B /* ColorPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerController.swift; path = FlexColorPicker/Classes/ColorPickerController.swift; sourceTree = "<group>"; };
+		3437F7282A17709F396992964C61A98A /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
+		357059A33A2B2252EF212F4294322F66 /* Google-Mobile-Ads-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		35C72173BB4A2C589C61434A4800825C /* CircleShapedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapedView.swift; path = FlexColorPicker/Classes/Views/CircleShapedView.swift; sourceTree = "<group>"; };
+		372B99AEEA1A8D3C5D9874FBE7177CE9 /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
+		37629B802904B07564C68AD96AFE7B2F /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		381309673A67F29CAB771DF3E31B85FD /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
+		3870F61DF4107958E7CD929DA9202980 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		391B3AE6EA0792C17C5F678921D1BEF8 /* Pods-דוח 1 אוטומטי-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-דוח 1 אוטומטי-frameworks.sh"; sourceTree = "<group>"; };
+		39D8DEF4CF5ACF2A02936F44E4B464E7 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
+		3F2BEB8EE3B8E5329D5D99D580D2D6CC /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		44C86B4CA56CB2E2EBBCB1DEC2FA0150 /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
+		44F1C18FA6B94BCAB010FA2507FA7198 /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
+		456C20A0317D9BFF6F8797BF77997B29 /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Private/GULLogger.h; sourceTree = "<group>"; };
+		47A17A996A5FAD37DE04D723D3A751DD /* ActionSheetPicker-3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-3.0-Info.plist"; sourceTree = "<group>"; };
+		49645C0BA584CFD42702949C747926A5 /* ActionSheetPicker-3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.release.xcconfig"; sourceTree = "<group>"; };
+		498468122FBC9C71243739CB8634AB60 /* CustomColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomColorPickerViewController.swift; path = FlexColorPicker/Classes/CustomColorPickerViewController.swift; sourceTree = "<group>"; };
+		4A5A1F65CCC0AB4457832E638C7CE6DD /* GoogleUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-prefix.pch"; sourceTree = "<group>"; };
+		4AC865AEF0F009105329B1F792302DE5 /* nanopb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "nanopb-Info.plist"; sourceTree = "<group>"; };
+		4FC1733985532546F340727FD99308CC /* Pods-דוח 1 אוטומטי-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-דוח 1 אוטומטי-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5205B6014D9F6545DC2F7AA72DCF56A0 /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
+		520FA8B91B0D563CC029AB154918400E /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		562788C8833DA34ABFBA14EE613B9FCB /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GULLoggerLevel.h; sourceTree = "<group>"; };
+		5A5F48AFF67A8BF8C665D2429058016A /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
+		5B33FFC46AAF54F210CED0B6E9B509C9 /* FlexColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexColorPicker.modulemap; sourceTree = "<group>"; };
+		5B5A84479C86B283FBB36133BC0FFCF2 /* GULNetworkLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkLoggerProtocol.h; path = GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h; sourceTree = "<group>"; };
+		5FC356E3DC4FF33D84B2A9AC12F829AC /* GULHeartbeatDateStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorage.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorage.m; sourceTree = "<group>"; };
+		6003246B567FDF57DE9BB221ADF5BF2E /* GULSceneDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler_Private.h; path = GoogleUtilities/SceneDelegateSwizzler/Internal/GULSceneDelegateSwizzler_Private.h; sourceTree = "<group>"; };
+		60F0C14F196E5B0030BF0EF09DAB3F9D /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
+		61239BC882D7A662367842DE3BF4B841 /* RectangularHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangularHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RectangularHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		62205E85BC4D2CCEBD374E3B133663B6 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		638C6A8ABB7B81F52340E91415D1E194 /* GULKeychainStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULKeychainStorage.h; path = GoogleUtilities/Environment/Private/GULKeychainStorage.h; sourceTree = "<group>"; };
+		638DA1FFD10ADE103BD25A6E39C36BA7 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		6398FD83925A41EF103748A52EFD57F8 /* GULNetworkURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkURLSession.m; path = GoogleUtilities/Network/GULNetworkURLSession.m; sourceTree = "<group>"; };
+		63E8B83FEFD087E322F1CF499D372319 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = FlexColorPicker/Classes/Utilities/CGRectExtension.swift; sourceTree = "<group>"; };
+		665E741A73AAA90A4AEBC055CE1EB09F /* PromisesObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.debug.xcconfig; sourceTree = "<group>"; };
+		677078E02AB05CF73C1364BDE091ABE8 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		67D7E28916C810489A4CC4E9515862CC /* FlexColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexColorPicker.h; path = FlexColorPicker/Classes/FlexColorPicker.h; sourceTree = "<group>"; };
+		689272A22E78BBC54A775F10F9ECD9C9 /* Pods-דוח 1 אוטומטי.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-דוח 1 אוטומטי.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0658401060A7D2142D7C14AC53E607 /* GULSceneDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler.h; path = GoogleUtilities/SceneDelegateSwizzler/Private/GULSceneDelegateSwizzler.h; sourceTree = "<group>"; };
+		6CA051D351DDD52A94EF3C14E9C3A399 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		6DC6D870B869F3A4527949750A9C269C /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
+		6DF7459A1E9205A1993DB5B07C05F483 /* GULNSDataInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNSDataInternal.h; path = "GoogleUtilities/NSData+zlib/Private/GULNSDataInternal.h"; sourceTree = "<group>"; };
+		6FD44469D23D58697FE80796F9855F80 /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
+		6FEC968C1084E904DB972E505227FA93 /* GULAppDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppDelegateSwizzler.m; path = GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m; sourceTree = "<group>"; };
+		73B508B009C6AA427C6018E22D5B9ACA /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
+		741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexColorPicker.framework; path = FlexColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76067DA1467027236B8302E89EE05910 /* Pods-דוח 1 אוטומטי-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-דוח 1 אוטומטי-Info.plist"; sourceTree = "<group>"; };
+		76660E598AF0A4233D618C1DAAD67DB7 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
+		7720FC2BA513039B0903C6D2E7723C09 /* ColorSliderControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderControl.swift; path = FlexColorPicker/Classes/Controls/ColorSliderControl.swift; sourceTree = "<group>"; };
+		7753C0287F9126D153CD3C714CE2CEEA /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		778F02E7CA6B6D70BF17CC0E8078E4DC /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
+		7AD1B366573A4FC861D00AE13B975B0F /* Pods-דוח 1 אוטומטי-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-דוח 1 אוטומטי-dummy.m"; sourceTree = "<group>"; };
+		7BABC167A7422E82B7E4D262A25C52EF /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
+		7D451DAF537EF9CE1B84BF6E497F6BF0 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		7EA67B9FB346E05F752C448EFD762217 /* RadialHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RadialHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		7F182BECADAC594546D75800A6280427 /* GULNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetwork.h; path = GoogleUtilities/Network/Private/GULNetwork.h; sourceTree = "<group>"; };
+		804CE3873451BB905E53178C2EA63BE8 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
+		82118FD457A6C7B5E49C886F88F053D2 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		82498B2B725BA0AC8DA60D53A0A030B2 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		827840464A29049AE98D98C4E137718B /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8340D32804C412F336BA05FF2F939081 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		836446D0DE7E235DC757665F55394B51 /* GoogleAppMeasurement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.release.xcconfig; sourceTree = "<group>"; };
+		8488EAC15CE810C1C00A3E39CFAC1B99 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
+		8B1CAAE9A18FD200CF0FBD8B312FD9FB /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
+		90DBFE8E94073848F2CB8C8BA7F75052 /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
+		90FA0F8FCE26B145762CAB1ED6599ABE /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
+		91BA7FC4A11233E8E320E2AE7504D50A /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = FlexColorPicker/Classes/Views/GradientView.swift; sourceTree = "<group>"; };
+		91C72B679EC891BF9C317B13AD8B39C2 /* Pods_____1________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____1________.framework; path = "Pods-דוח 1 אוטומטי.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926ADD161F2130F158F6F16F087377F4 /* ColorPaletteControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteControl.swift; path = FlexColorPicker/Classes/Controls/ColorPaletteControl.swift; sourceTree = "<group>"; };
+		9552B1C701A0AE9CDBEB2834C1A45DA4 /* GULNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULNSData+zlib.h"; path = "GoogleUtilities/NSData+zlib/Public/GULNSData+zlib.h"; sourceTree = "<group>"; };
+		95F631C4047EB574EBF8FA69B9823346 /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
+		977DB6022BBB157B3C851427FA7D2E69 /* ColorPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorPaletteDelegate.swift; sourceTree = "<group>"; };
+		9796F82BBEB2C85C8BE88FB534B5F535 /* GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
+		986195F6FC04F0451B5F9F3C76CE0AF1 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		99FD8C76BD1B8B3E59380334C82AE362 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		9A6AF9643E208EC90D3F7CABA1E18D23 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		9C970B68446F4FD495CE36C624106049 /* DefaultColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultColorPickerViewController.swift; path = FlexColorPicker/Classes/DefaultColorPickerViewController.swift; sourceTree = "<group>"; };
+		9D7184B5EE7A3701EDA90E6AD291AD9F /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIViewExtension.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED78EB81B56F35FDA52E4D751671EFF /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
+		9F01DD1DF9B2B7E742A4EFF3E6275914 /* GULAppDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h; sourceTree = "<group>"; };
+		9F0AF3C765E627221C7156377157D489 /* ColorPickerThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerThumbView.swift; path = FlexColorPicker/Classes/Views/ColorPickerThumbView.swift; sourceTree = "<group>"; };
+		9FCF1C4B474D9999B87379E51D5D04E3 /* Pods-דוח 1 אוטומטי.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-דוח 1 אוטומטי.modulemap"; sourceTree = "<group>"; };
+		A13AF3E50A5B758A62AE1BAADF8ED7E9 /* GULHeartbeatDateStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorage.h; path = GoogleUtilities/Environment/Private/GULHeartbeatDateStorage.h; sourceTree = "<group>"; };
+		A2F31E84E703CC88981DBE574107875A /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
+		A4FFE2B66C337290408DAD69C2AF66F6 /* PaletteAwareScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteAwareScrollView.swift; path = FlexColorPicker/Classes/Views/PaletteAwareScrollView.swift; sourceTree = "<group>"; };
+		A7291D54F37CC4FC7C2AD41FF84B8F50 /* AdjustedHitBoxColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustedHitBoxColorControl.swift; path = FlexColorPicker/Classes/Controls/AdjustedHitBoxColorControl.swift; sourceTree = "<group>"; };
+		A7BD559CC1B4621913BF4492689FDC3B /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
+		A838DE0B2E0AA3DB99249F23C23C0DEB /* GULLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULLogger.m; path = GoogleUtilities/Logger/GULLogger.m; sourceTree = "<group>"; };
+		A8B69312ED764F03141C360B7BFC9D4D /* nanopb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.release.xcconfig; sourceTree = "<group>"; };
+		ABA89D546B0930AE0265535261B59D65 /* GULAppDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler.h; path = GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h; sourceTree = "<group>"; };
+		AD18B10BCDFDE41A666125EBAF09C482 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
+		AEAB9B8C7BF23DE7242C126AEB61E795 /* GULMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULMutableDictionary.m; path = GoogleUtilities/Network/GULMutableDictionary.m; sourceTree = "<group>"; };
+		B02B71114CC75DF6A8F85FC496291C48 /* PromisesObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.release.xcconfig; sourceTree = "<group>"; };
+		B0A6F72739DE6F576FF607EE702FF1AE /* FlexColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexColorPicker-dummy.m"; sourceTree = "<group>"; };
+		B287EC6F0A8AE49E618D86802FE7A778 /* Google-Mobile-Ads-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		B41C585664BB6D4A8EA268915DB8C742 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		B42A5001192863F28435C3D9452485C7 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E91AF4665E7494EAC48A42709E0B3E /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		B4F329F54BE28718A3427BB2FA845E4F /* GULNetworkURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkURLSession.h; path = GoogleUtilities/Network/Private/GULNetworkURLSession.h; sourceTree = "<group>"; };
+		B67061FE3B72176618AF0C875B87AA38 /* GULSecureCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSecureCoding.m; path = GoogleUtilities/Environment/GULSecureCoding.m; sourceTree = "<group>"; };
+		B73A897FE9881649AEF5850D3D089E4D /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		B9F516BA26AD71B186B71F39A3F98ABD /* GULLoggerCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerCodes.h; path = GoogleUtilities/Common/GULLoggerCodes.h; sourceTree = "<group>"; };
+		BA0313D8213F9479A57DFD872BB7C2C0 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		BCC5A718D7690F520B9AEEC5B2FC4801 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		BD8B1C639DC14DAD0B2FF53A395263D1 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		BE297F6AA0DDAD12B4A783056C46B156 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BE521BA5C9A3FE9B8A3AD7AEADF84F43 /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
+		BEBFBEAA5E512C669FD08029850C6F54 /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
+		C15167BE2E329E522FB2EEF9437F82CE /* FlexColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		C1E00BA4E78B36B27299847A29276BBF /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
+		C3CFA4C8413C9E61A06D3FDD58B9BA8E /* GULNetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkConstants.h; path = GoogleUtilities/Network/Private/GULNetworkConstants.h; sourceTree = "<group>"; };
+		C402C5FA6F594F7B8D44A36C17C12672 /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = FlexColorPicker/Classes/Utilities/CGPointExtension.swift; sourceTree = "<group>"; };
+		C4B72C8E93F436F9E2D13C9EE91A074B /* FlexColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		C5D0A36D6C8ECA72C019E9A88A6A4B70 /* GULKeychainStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULKeychainStorage.m; path = GoogleUtilities/Environment/SecureStorage/GULKeychainStorage.m; sourceTree = "<group>"; };
+		C5D1817F63E82BFF620BA1EF77588B2C /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Frameworks/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		C725AA26D44852D25526DBF7B2FD3AF1 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
+		C74D9B08D498D0A6317D0267CAF33699 /* AbstractColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractColorControl.swift; path = FlexColorPicker/Classes/Controls/AbstractColorControl.swift; sourceTree = "<group>"; };
+		C7855E8A48B927ED00C5D6F84881D063 /* ComponentSliderControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderControls.swift; path = FlexColorPicker/Classes/Controls/ComponentSliderControls.swift; sourceTree = "<group>"; };
+		C7990670C8833DBD0C2BD815F39B1D88 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		C7E574A261144AE2D8E0F73962F3742B /* FBLPromise+Wrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Wrap.m"; path = "Sources/FBLPromises/FBLPromise+Wrap.m"; sourceTree = "<group>"; };
+		C82F35BB52F511595E580CBB0063BBF2 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
+		C94091192B2AF998C9ED5A88DC7CE8E7 /* PaletteControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteControls.swift; path = FlexColorPicker/Classes/Controls/PaletteControls.swift; sourceTree = "<group>"; };
+		C9EC1631A815854783E13F69A85B1BC1 /* GoogleAppMeasurement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.debug.xcconfig; sourceTree = "<group>"; };
+		CA5CBD46C7F310498674AFB12F68B7E6 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		CCE07A6016DAEF4184B3E546BAA581DA /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		CD78EE39CAF1C2303369CEAD80B3EB44 /* GULReachabilityChecker+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULReachabilityChecker+Internal.h"; path = "GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h"; sourceTree = "<group>"; };
+		CE7CD8EB3842B73BAEC5446FB07CFEDA /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
+		CEDB42089D233CB997836F18E857C173 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF3A38DFC2A950E37F8A87D55D16A0DF /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		D04B97A60DA2B2387979A818833CA18E /* ColorPickerControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerControllerProtocol.swift; path = FlexColorPicker/Classes/ColorPickerControllerProtocol.swift; sourceTree = "<group>"; };
+		D15E2A25E7D98367E0C2E3E16DB97954 /* FlexColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexColorPicker-Info.plist"; sourceTree = "<group>"; };
+		D1B7742EAB60F61A25C90A3A43DD9B6B /* GULKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULKeychainUtils.m; path = GoogleUtilities/Environment/SecureStorage/GULKeychainUtils.m; sourceTree = "<group>"; };
+		D2130D39B87182D81D890DD8653AA701 /* GULNetworkMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkMessageCode.h; path = GoogleUtilities/Network/Private/GULNetworkMessageCode.h; sourceTree = "<group>"; };
+		D44190CD372CE9D1B3686176850906D7 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8B3F83F835C4668C8F69E63D131DB5 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
+		DAD4C98CB4F55C453F84B52A47FE470F /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
+		DB02EA1E92B265753E2065163B4A7241 /* ColorSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorSliderDelegate.swift; sourceTree = "<group>"; };
+		DD94FFCDC0EBCA2723C26A356BDD5A0B /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
+		DED232D497200782D8E96AB553932D66 /* ComponentSliderDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderDelegates.swift; path = FlexColorPicker/Classes/ControlDelegates/ComponentSliderDelegates.swift; sourceTree = "<group>"; };
+		E1437BA5A27503958D49FBCFCD57969A /* GULApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULApplication.h; path = GoogleUtilities/AppDelegateSwizzler/Private/GULApplication.h; sourceTree = "<group>"; };
+		E17171E2D58E60C37CF9C36DF36D0F11 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41819FC0BAD9FC7BA06B3ACE1FD921A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E44E6E01B806DC4644577046C105EFFE /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
+		E4E659F400A92E8D6EFBF27879A16DE0 /* Pods-דוח 1 אוטומטי-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-דוח 1 אוטומטי-umbrella.h"; sourceTree = "<group>"; };
+		E5A7F97032667C32275C2DB093F07274 /* ColorPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerDelegate.swift; path = FlexColorPicker/Classes/ColorPickerDelegate.swift; sourceTree = "<group>"; };
+		E611560151929501D6C195D59A628B29 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		E6127C0413778AC06208CF1F9821B3C6 /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
+		E61CE4CA1BAD28B9DDA33CCE2B3163BC /* UIViewWithCommonInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewWithCommonInit.swift; path = FlexColorPicker/Classes/Views/UIViewWithCommonInit.swift; sourceTree = "<group>"; };
+		E6EC179E866BAD1B01BDD37786883302 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
+		E82CD8005469A30F7D60C1D68D7C4B81 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageExtension.swift; sourceTree = "<group>"; };
+		E8C00C8478FED3D5948B0B41B9A201A4 /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
+		EB36276089A5DCB6B2A3E3D7DDF85BA4 /* ControlWithThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlWithThumbView.swift; path = FlexColorPicker/Classes/Controls/ControlWithThumbView.swift; sourceTree = "<group>"; };
+		EBE2B32C11CAFB2042E3C2BDBAA34952 /* Pods-דוח 1 אוטומטי.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-דוח 1 אוטומטי.release.xcconfig"; sourceTree = "<group>"; };
+		F042DE7A6A894CF0DD823244009FF4DE /* ActionSheetPicker-3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		F207B818838819CD4816FC4856CB500C /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
+		F2B948EB2D13BDB840F78D2DB607AD49 /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = FlexColorPicker/Classes/HSBColor.swift; sourceTree = "<group>"; };
+		F396A25DD72D73ABB8D73735779DF88D /* LimitedGestureCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitedGestureCircleView.swift; path = FlexColorPicker/Classes/Views/LimitedGestureCircleView.swift; sourceTree = "<group>"; };
+		F61A80EDE298C9E8D0039F20DCD0AF55 /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
+		F67371518B8FDAE4A6A213242548F87F /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		F6BD11932CDFEC322107D78851DACB8E /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		F97A7F17D9BCB611C34A1A227E8283B0 /* FlexColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		FA2F3C8CB1B7856F32581174AF9AADD3 /* GULOriginalIMPConvenienceMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULOriginalIMPConvenienceMacros.h; path = GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h; sourceTree = "<group>"; };
+		FAB08DDBC63630151969EF09D37ABBE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD825BBFE8AE6BAB7FA90CB935907ADB /* GULSecureCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSecureCoding.h; path = GoogleUtilities/Environment/Private/GULSecureCoding.h; sourceTree = "<group>"; };
+		FED2F6FD890C03BA2328ADE7B3BF3DFF /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ABB424F6B5AB0B23A3046ACAF84328C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846532F274626418425727C65C85E7E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EEA46FA461EBE1BA796BBECDECCCC2 /* Foundation.framework in Frameworks */,
+				5E2E7D406AE90AD8C485F9546A12B9E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687306F56E887C496BC0B5AC4FC0F5AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211105F6306294D2543942BD8430147D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D3B1FA58EE43F94930A4D6AE02E9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242306585823495459703FFDDEED371C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87609743FC3ADF2764CF488756C19E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE74B5609844FB18B51B3A9EAA90C03 /* FBLPromises.framework in Frameworks */,
+				AF9C22F5B39738B2C3B3608750AE08D7 /* Foundation.framework in Frameworks */,
+				4E9C2342E3A0CA658965DB304C25729D /* Security.framework in Frameworks */,
+				F665DB84FD0B72516846E6158BF1D9B5 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CF806B2C69CC0E58A77757C9CCA2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83072233D84E2A9102738D34790D9EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029ECD47ADBD6B69C1A21B72910DBA14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04944F047FE1BC997999D712AED7DF71 /* SwiftLint.debug.xcconfig */,
+				BCC5A718D7690F520B9AEEC5B2FC4801 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		102C20C5338DC5E72F49EC876D20510A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				18FD34840ACFAD9A4B413774EA7567F3 /* SwiftyJSON.swift */,
+				95C37C4335B28E8C901BDE7DCA329FEF /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		19E4FE6BA7D4875B59FAD220FCFA9EE4 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				029ECD47ADBD6B69C1A21B72910DBA14 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		226AE681C3855C6D4CB156BC207E794D /* Pods-דוח 1 אוטומטי */ = {
+			isa = PBXGroup;
+			children = (
+				9FCF1C4B474D9999B87379E51D5D04E3 /* Pods-דוח 1 אוטומטי.modulemap */,
+				4FC1733985532546F340727FD99308CC /* Pods-דוח 1 אוטומטי-acknowledgements.markdown */,
+				0F72577621999C733DDA817A08978097 /* Pods-דוח 1 אוטומטי-acknowledgements.plist */,
+				7AD1B366573A4FC861D00AE13B975B0F /* Pods-דוח 1 אוטומטי-dummy.m */,
+				391B3AE6EA0792C17C5F678921D1BEF8 /* Pods-דוח 1 אוטומטי-frameworks.sh */,
+				76067DA1467027236B8302E89EE05910 /* Pods-דוח 1 אוטומטי-Info.plist */,
+				E4E659F400A92E8D6EFBF27879A16DE0 /* Pods-דוח 1 אוטומטי-umbrella.h */,
+				689272A22E78BBC54A775F10F9ECD9C9 /* Pods-דוח 1 אוטומטי.debug.xcconfig */,
+				EBE2B32C11CAFB2042E3C2BDBAA34952 /* Pods-דוח 1 אוטומטי.release.xcconfig */,
+			);
+			name = "Pods-דוח 1 אוטומטי";
+			path = "Target Support Files/Pods-דוח 1 אוטומטי";
+			sourceTree = "<group>";
+		};
+		22C400D6704DA40C07ED14728160912F /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				456C20A0317D9BFF6F8797BF77997B29 /* GULLogger.h */,
+				A838DE0B2E0AA3DB99249F23C23C0DEB /* GULLogger.m */,
+				562788C8833DA34ABFBA14EE613B9FCB /* GULLoggerLevel.h */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		2FA6246C131ED458A183444CA2D44160 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB42089D233CB997836F18E857C173 /* Foundation.framework */,
+				E41819FC0BAD9FC7BA06B3ACE1FD921A /* Security.framework */,
+				BE297F6AA0DDAD12B4A783056C46B156 /* SystemConfiguration.framework */,
+				FAB08DDBC63630151969EF09D37ABBE7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E7C456576FD86A980443B5D3F2F3151 /* encode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = encode;
+			sourceTree = "<group>";
+		};
+		40329A07B29505D0DEE1AA8166F86490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F89FC1594B9190134BEDE5B7B66605F /* FBLPromises.framework */,
+				2FA6246C131ED458A183444CA2D44160 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4777F312BEB6C8E456FA446DE47E4BB1 /* MethodSwizzler */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F3C8CB1B7856F32581174AF9AADD3 /* GULOriginalIMPConvenienceMacros.h */,
+				0E1FA4FEF23D78F12F0CA6075081695B /* GULSwizzler.h */,
+				27CAECD79D789188F4AC6DC7639D587A /* GULSwizzler.m */,
+			);
+			name = MethodSwizzler;
+			sourceTree = "<group>";
+		};
+		4B79822AA64C7FA23D0431ACC2161645 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				230BFE8FD031058F64D7D3B71295D780 /* GULReachabilityChecker.h */,
+				07FB4DD5CBB19AF845AAA4E07DF6AF43 /* GULReachabilityChecker.m */,
+				CD78EE39CAF1C2303369CEAD80B3EB44 /* GULReachabilityChecker+Internal.h */,
+				2DE72F530243B1FCD2BB886F11FA53D4 /* GULReachabilityMessageCode.h */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		4C509A77695F53562AA9CC1DCF956151 /* FlexColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C74D9B08D498D0A6317D0267CAF33699 /* AbstractColorControl.swift */,
+				A7291D54F37CC4FC7C2AD41FF84B8F50 /* AdjustedHitBoxColorControl.swift */,
+				C402C5FA6F594F7B8D44A36C17C12672 /* CGPointExtension.swift */,
+				63E8B83FEFD087E322F1CF499D372319 /* CGRectExtension.swift */,
+				35C72173BB4A2C589C61434A4800825C /* CircleShapedView.swift */,
+				27EA6BF22B17AC5EC04DBDAA12DFC4A1 /* ColorControl.swift */,
+				292EF2291EA9397A56097E0AACF9FB44 /* ColorControlContentView.swift */,
+				926ADD161F2130F158F6F16F087377F4 /* ColorPaletteControl.swift */,
+				977DB6022BBB157B3C851427FA7D2E69 /* ColorPaletteDelegate.swift */,
+				339C3C988A92697FCDCB065DDA946F9B /* ColorPickerController.swift */,
+				D04B97A60DA2B2387979A818833CA18E /* ColorPickerControllerProtocol.swift */,
+				E5A7F97032667C32275C2DB093F07274 /* ColorPickerDelegate.swift */,
+				9F0AF3C765E627221C7156377157D489 /* ColorPickerThumbView.swift */,
+				28BE894EA6F882E77C2BF40BF86DD77A /* ColorPreviewWithHex.swift */,
+				7720FC2BA513039B0903C6D2E7723C09 /* ColorSliderControl.swift */,
+				DB02EA1E92B265753E2065163B4A7241 /* ColorSliderDelegate.swift */,
+				C7855E8A48B927ED00C5D6F84881D063 /* ComponentSliderControls.swift */,
+				DED232D497200782D8E96AB553932D66 /* ComponentSliderDelegates.swift */,
+				EB36276089A5DCB6B2A3E3D7DDF85BA4 /* ControlWithThumbView.swift */,
+				498468122FBC9C71243739CB8634AB60 /* CustomColorPickerViewController.swift */,
+				9C970B68446F4FD495CE36C624106049 /* DefaultColorPickerViewController.swift */,
+				67D7E28916C810489A4CC4E9515862CC /* FlexColorPicker.h */,
+				91BA7FC4A11233E8E320E2AE7504D50A /* GradientView.swift */,
+				F2B948EB2D13BDB840F78D2DB607AD49 /* HSBColor.swift */,
+				F396A25DD72D73ABB8D73735779DF88D /* LimitedGestureCircleView.swift */,
+				2D0031BFD499A969B1FD94B227E66D1A /* LimitedGestureViewDelegate.swift */,
+				A4FFE2B66C337290408DAD69C2AF66F6 /* PaletteAwareScrollView.swift */,
+				C94091192B2AF998C9ED5A88DC7CE8E7 /* PaletteControls.swift */,
+				7EA67B9FB346E05F752C448EFD762217 /* RadialHSBPaletteDelegate.swift */,
+				61239BC882D7A662367842DE3BF4B841 /* RectangularHSBPaletteDelegate.swift */,
+				1005AF1510EEB1CC7D5E0198583F4D48 /* UIColorExtension.swift */,
+				E82CD8005469A30F7D60C1D68D7C4B81 /* UIImageExtension.swift */,
+				CCE07A6016DAEF4184B3E546BAA581DA /* UIImageViewExtension.swift */,
+				9D7184B5EE7A3701EDA90E6AD291AD9F /* UIViewExtension.swift */,
+				E61CE4CA1BAD28B9DDA33CCE2B3163BC /* UIViewWithCommonInit.swift */,
+				A60CBF742CE4E0ED6E73F301F24E271E /* Support Files */,
+			);
+			name = FlexColorPicker;
+			path = FlexColorPicker;
+			sourceTree = "<group>";
+		};
+		51B10ED9FEB563ECE8EC0420AFDFB071 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C15E8076B473536BB275A038137F78D0 /* AppDelegateSwizzler */,
+				92A13909CAB2262146A36DA2E0EE782B /* Environment */,
+				22C400D6704DA40C07ED14728160912F /* Logger */,
+				4777F312BEB6C8E456FA446DE47E4BB1 /* MethodSwizzler */,
+				F03B1165AC1BEA91DD79F6E29CDC6411 /* Network */,
+				F70136B5645AB3D3B85FDFAA0C934A34 /* NSData+zlib */,
+				4B79822AA64C7FA23D0431ACC2161645 /* Reachability */,
+				B3E57397E52323BD8AF3B60DBE94FF30 /* Support Files */,
+			);
+			name = GoogleUtilities;
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		616B97BC831CAAA603607DEDC06EB06A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				226AE681C3855C6D4CB156BC207E794D /* Pods-דוח 1 אוטומטי */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A99764E4EE6CF21748746F2249DE131 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E17171E2D58E60C37CF9C36DF36D0F11 /* AbstractActionSheetPicker.h */,
+				82498B2B725BA0AC8DA60D53A0A030B2 /* AbstractActionSheetPicker.m */,
+				01DE6FD64CDCA887B90DC563EA144CCE /* ActionSheetCustomPicker.h */,
+				7753C0287F9126D153CD3C714CE2CEEA /* ActionSheetCustomPicker.m */,
+				7D451DAF537EF9CE1B84BF6E497F6BF0 /* ActionSheetCustomPickerDelegate.h */,
+				62205E85BC4D2CCEBD374E3B133663B6 /* ActionSheetDatePicker.h */,
+				9A6AF9643E208EC90D3F7CABA1E18D23 /* ActionSheetDatePicker.m */,
+				E611560151929501D6C195D59A628B29 /* ActionSheetDistancePicker.h */,
+				BD8B1C639DC14DAD0B2FF53A395263D1 /* ActionSheetDistancePicker.m */,
+				06C001A2E2F0D8CDB9749FA5ACCB7353 /* ActionSheetLocalePicker.h */,
+				B41C585664BB6D4A8EA268915DB8C742 /* ActionSheetLocalePicker.m */,
+				99FD8C76BD1B8B3E59380334C82AE362 /* ActionSheetMultipleStringPicker.h */,
+				3870F61DF4107958E7CD929DA9202980 /* ActionSheetMultipleStringPicker.m */,
+				B4E91AF4665E7494EAC48A42709E0B3E /* ActionSheetPicker.h */,
+				03D9AFFDB866E83F6AC97A51D413F267 /* ActionSheetStringPicker.h */,
+				82118FD457A6C7B5E49C886F88F053D2 /* ActionSheetStringPicker.m */,
+				2605FD05A3EE5614941545A821ECC51C /* DistancePickerView.h */,
+				3F2BEB8EE3B8E5329D5D99D580D2D6CC /* DistancePickerView.m */,
+				37629B802904B07564C68AD96AFE7B2F /* SWActionSheet.h */,
+				8340D32804C412F336BA05FF2F939081 /* SWActionSheet.m */,
+				7B679E2281CD87D9AD759A77187055EC /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		7B679E2281CD87D9AD759A77187055EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D44190CD372CE9D1B3686176850906D7 /* ActionSheetPicker-3.0.modulemap */,
+				1DA8E9034AD392AC9DA794FBA3B3CAC7 /* ActionSheetPicker-3.0-dummy.m */,
+				47A17A996A5FAD37DE04D723D3A751DD /* ActionSheetPicker-3.0-Info.plist */,
+				F6BD11932CDFEC322107D78851DACB8E /* ActionSheetPicker-3.0-prefix.pch */,
+				986195F6FC04F0451B5F9F3C76CE0AF1 /* ActionSheetPicker-3.0-umbrella.h */,
+				F042DE7A6A894CF0DD823244009FF4DE /* ActionSheetPicker-3.0.debug.xcconfig */,
+				49645C0BA584CFD42702949C747926A5 /* ActionSheetPicker-3.0.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		875720A55FC18F2A3B8F4469E7E6017B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C725AA26D44852D25526DBF7B2FD3AF1 /* PromisesObjC.modulemap */,
+				381309673A67F29CAB771DF3E31B85FD /* PromisesObjC-dummy.m */,
+				BE521BA5C9A3FE9B8A3AD7AEADF84F43 /* PromisesObjC-Info.plist */,
+				90DBFE8E94073848F2CB8C8BA7F75052 /* PromisesObjC-umbrella.h */,
+				665E741A73AAA90A4AEBC055CE1EB09F /* PromisesObjC.debug.xcconfig */,
+				B02B71114CC75DF6A8F85FC496291C48 /* PromisesObjC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromisesObjC";
+			sourceTree = "<group>";
+		};
+		883C76A2C7C06A1E1C2CA535242BF023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1817F63E82BFF620BA1EF77588B2C /* GoogleAppMeasurement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B2F502D041F56541A29AF72CF2402D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				778F02E7CA6B6D70BF17CC0E8078E4DC /* nanopb.modulemap */,
+				8488EAC15CE810C1C00A3E39CFAC1B99 /* nanopb-dummy.m */,
+				4AC865AEF0F009105329B1F792302DE5 /* nanopb-Info.plist */,
+				30C7893982BE7B2E33B095F3435DB339 /* nanopb-prefix.pch */,
+				16625E07DEC7A04156558E48FA035789 /* nanopb-umbrella.h */,
+				238C55FFA1FF438B25E7C0A2AEDB834B /* nanopb.debug.xcconfig */,
+				A8B69312ED764F03141C360B7BFC9D4D /* nanopb.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/nanopb";
+			sourceTree = "<group>";
+		};
+		8CCA8F7F23728C8DB509C596E333AACB /* decode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+		9141426530C83C8A55682C0DAAB31B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */,
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
+				741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
+				91C72B679EC891BF9C317B13AD8B39C2 /* Pods_____1________.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A13909CAB2262146A36DA2E0EE782B /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				0567DE396ABDC048B3A7D5022852F3D7 /* GULAppEnvironmentUtil.h */,
+				9ED78EB81B56F35FDA52E4D751671EFF /* GULAppEnvironmentUtil.m */,
+				A13AF3E50A5B758A62AE1BAADF8ED7E9 /* GULHeartbeatDateStorage.h */,
+				5FC356E3DC4FF33D84B2A9AC12F829AC /* GULHeartbeatDateStorage.m */,
+				638C6A8ABB7B81F52340E91415D1E194 /* GULKeychainStorage.h */,
+				C5D0A36D6C8ECA72C019E9A88A6A4B70 /* GULKeychainStorage.m */,
+				23363F636D23A2D325C5660EE057E198 /* GULKeychainUtils.h */,
+				D1B7742EAB60F61A25C90A3A43DD9B6B /* GULKeychainUtils.m */,
+				FD825BBFE8AE6BAB7FA90CB935907ADB /* GULSecureCoding.h */,
+				B67061FE3B72176618AF0C875B87AA38 /* GULSecureCoding.m */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		94CABFABE900E14CAE2F47CDC094713A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B287EC6F0A8AE49E618D86802FE7A778 /* Google-Mobile-Ads-SDK.debug.xcconfig */,
+				357059A33A2B2252EF212F4294322F66 /* Google-Mobile-Ads-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		95C37C4335B28E8C901BDE7DCA329FEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B73A897FE9881649AEF5850D3D089E4D /* SwiftyJSON.modulemap */,
+				6CA051D351DDD52A94EF3C14E9C3A399 /* SwiftyJSON-dummy.m */,
+				638DA1FFD10ADE103BD25A6E39C36BA7 /* SwiftyJSON-Info.plist */,
+				677078E02AB05CF73C1364BDE091ABE8 /* SwiftyJSON-prefix.pch */,
+				827840464A29049AE98D98C4E137718B /* SwiftyJSON-umbrella.h */,
+				1E6CADC4B1C98525F239166246EA9367 /* SwiftyJSON.debug.xcconfig */,
+				B42A5001192863F28435C3D9452485C7 /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		A60CBF742CE4E0ED6E73F301F24E271E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B33FFC46AAF54F210CED0B6E9B509C9 /* FlexColorPicker.modulemap */,
+				B0A6F72739DE6F576FF607EE702FF1AE /* FlexColorPicker-dummy.m */,
+				D15E2A25E7D98367E0C2E3E16DB97954 /* FlexColorPicker-Info.plist */,
+				C15167BE2E329E522FB2EEF9437F82CE /* FlexColorPicker-prefix.pch */,
+				0155232E0273FED5CCE9E210814591D9 /* FlexColorPicker-umbrella.h */,
+				C4B72C8E93F436F9E2D13C9EE91A074B /* FlexColorPicker.debug.xcconfig */,
+				F97A7F17D9BCB611C34A1A227E8283B0 /* FlexColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexColorPicker";
+			sourceTree = "<group>";
+		};
+		B3E57397E52323BD8AF3B60DBE94FF30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				071156DE883AD7A85D271F3BA658062A /* GoogleUtilities.modulemap */,
+				08158988503FB5CDD08EF8F649FC040D /* GoogleUtilities-dummy.m */,
+				9796F82BBEB2C85C8BE88FB534B5F535 /* GoogleUtilities-Info.plist */,
+				4A5A1F65CCC0AB4457832E638C7CE6DD /* GoogleUtilities-prefix.pch */,
+				3437F7282A17709F396992964C61A98A /* GoogleUtilities-umbrella.h */,
+				019B8D7981387E5AE98F66A9C4A95EB9 /* GoogleUtilities.debug.xcconfig */,
+				2B9B8833E72D0F188D31F286F49FCB6C /* GoogleUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleUtilities";
+			sourceTree = "<group>";
+		};
+		C15E8076B473536BB275A038137F78D0 /* AppDelegateSwizzler */ = {
+			isa = PBXGroup;
+			children = (
+				ABA89D546B0930AE0265535261B59D65 /* GULAppDelegateSwizzler.h */,
+				6FEC968C1084E904DB972E505227FA93 /* GULAppDelegateSwizzler.m */,
+				9F01DD1DF9B2B7E742A4EFF3E6275914 /* GULAppDelegateSwizzler_Private.h */,
+				E1437BA5A27503958D49FBCFCD57969A /* GULApplication.h */,
+				B9F516BA26AD71B186B71F39A3F98ABD /* GULLoggerCodes.h */,
+				6B0658401060A7D2142D7C14AC53E607 /* GULSceneDelegateSwizzler.h */,
+				2EA445865532C30002BCB303C392B53F /* GULSceneDelegateSwizzler.m */,
+				6003246B567FDF57DE9BB221ADF5BF2E /* GULSceneDelegateSwizzler_Private.h */,
+			);
+			name = AppDelegateSwizzler;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				40329A07B29505D0DEE1AA8166F86490 /* Frameworks */,
+				E265CEE249C170A21EFCF8C5C503D5A4 /* Pods */,
+				9141426530C83C8A55682C0DAAB31B88 /* Products */,
+				616B97BC831CAAA603607DEDC06EB06A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D22DE4BA95B98B055B070F90AD505B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FC5336534B811B8ED6F3ABFDCB048D /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D490A1CAFAAEB1C2E3773AAADCE30B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC1631A815854783E13F69A85B1BC1 /* GoogleAppMeasurement.debug.xcconfig */,
+				836446D0DE7E235DC757665F55394B51 /* GoogleAppMeasurement.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAppMeasurement";
+			sourceTree = "<group>";
+		};
+		DA88084BBDF6EA95FDD33D290C6067DC /* GoogleAppMeasurement */ = {
+			isa = PBXGroup;
+			children = (
+				883C76A2C7C06A1E1C2CA535242BF023 /* Frameworks */,
+				D9D490A1CAFAAEB1C2E3773AAADCE30B /* Support Files */,
+			);
+			name = GoogleAppMeasurement;
+			path = GoogleAppMeasurement;
+			sourceTree = "<group>";
+		};
+		DE1305C7D3788F0B98A28FEFECAD0D77 /* PromisesObjC */ = {
+			isa = PBXGroup;
+			children = (
+				44C86B4CA56CB2E2EBBCB1DEC2FA0150 /* FBLPromise.h */,
+				F61A80EDE298C9E8D0039F20DCD0AF55 /* FBLPromise.m */,
+				8B1CAAE9A18FD200CF0FBD8B312FD9FB /* FBLPromise+All.h */,
+				250E0ACF43827CD998D4B19F3E2604D0 /* FBLPromise+All.m */,
+				95F631C4047EB574EBF8FA69B9823346 /* FBLPromise+Always.h */,
+				39D8DEF4CF5ACF2A02936F44E4B464E7 /* FBLPromise+Always.m */,
+				28EAF7C5A61AB2E30E5D3EF9AF971FBB /* FBLPromise+Any.h */,
+				BEBFBEAA5E512C669FD08029850C6F54 /* FBLPromise+Any.m */,
+				A7BD559CC1B4621913BF4492689FDC3B /* FBLPromise+Async.h */,
+				7BABC167A7422E82B7E4D262A25C52EF /* FBLPromise+Async.m */,
+				20BD4ECA08C3A9BD19760061900ECF61 /* FBLPromise+Await.h */,
+				CE7CD8EB3842B73BAEC5446FB07CFEDA /* FBLPromise+Await.m */,
+				C1E00BA4E78B36B27299847A29276BBF /* FBLPromise+Catch.h */,
+				2954BF76FD6D0A29CF7A8BA8F8043E5C /* FBLPromise+Catch.m */,
+				FED2F6FD890C03BA2328ADE7B3BF3DFF /* FBLPromise+Delay.h */,
+				DD94FFCDC0EBCA2723C26A356BDD5A0B /* FBLPromise+Delay.m */,
+				5A5F48AFF67A8BF8C665D2429058016A /* FBLPromise+Do.h */,
+				60F0C14F196E5B0030BF0EF09DAB3F9D /* FBLPromise+Do.m */,
+				E6EC179E866BAD1B01BDD37786883302 /* FBLPromise+Race.h */,
+				F207B818838819CD4816FC4856CB500C /* FBLPromise+Race.m */,
+				804CE3873451BB905E53178C2EA63BE8 /* FBLPromise+Recover.h */,
+				C82F35BB52F511595E580CBB0063BBF2 /* FBLPromise+Recover.m */,
+				372B99AEEA1A8D3C5D9874FBE7177CE9 /* FBLPromise+Reduce.h */,
+				6DC6D870B869F3A4527949750A9C269C /* FBLPromise+Reduce.m */,
+				E8C00C8478FED3D5948B0B41B9A201A4 /* FBLPromise+Retry.h */,
+				5205B6014D9F6545DC2F7AA72DCF56A0 /* FBLPromise+Retry.m */,
+				AD18B10BCDFDE41A666125EBAF09C482 /* FBLPromise+Testing.h */,
+				6FD44469D23D58697FE80796F9855F80 /* FBLPromise+Testing.m */,
+				E6127C0413778AC06208CF1F9821B3C6 /* FBLPromise+Then.h */,
+				44F1C18FA6B94BCAB010FA2507FA7198 /* FBLPromise+Then.m */,
+				E44E6E01B806DC4644577046C105EFFE /* FBLPromise+Timeout.h */,
+				A2F31E84E703CC88981DBE574107875A /* FBLPromise+Timeout.m */,
+				0AB0387DB4F4BD753F04D821285AFF22 /* FBLPromise+Validate.h */,
+				73B508B009C6AA427C6018E22D5B9ACA /* FBLPromise+Validate.m */,
+				DA8B3F83F835C4668C8F69E63D131DB5 /* FBLPromise+Wrap.h */,
+				C7E574A261144AE2D8E0F73962F3742B /* FBLPromise+Wrap.m */,
+				76660E598AF0A4233D618C1DAAD67DB7 /* FBLPromiseError.h */,
+				0D72212738B315FFA16B682AB843583D /* FBLPromiseError.m */,
+				90FA0F8FCE26B145762CAB1ED6599ABE /* FBLPromisePrivate.h */,
+				DAD4C98CB4F55C453F84B52A47FE470F /* FBLPromises.h */,
+				875720A55FC18F2A3B8F4469E7E6017B /* Support Files */,
+			);
+			name = PromisesObjC;
+			path = PromisesObjC;
+			sourceTree = "<group>";
+		};
+		E265CEE249C170A21EFCF8C5C503D5A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A99764E4EE6CF21748746F2249DE131 /* ActionSheetPicker-3.0 */,
+				4C509A77695F53562AA9CC1DCF956151 /* FlexColorPicker */,
+				E6DEA1ABCF062330D5AA9D3BFA6B93E1 /* Google-Mobile-Ads-SDK */,
+				DA88084BBDF6EA95FDD33D290C6067DC /* GoogleAppMeasurement */,
+				51B10ED9FEB563ECE8EC0420AFDFB071 /* GoogleUtilities */,
+				F12EA1DA440A10757B9DD64BF20AAD08 /* nanopb */,
+				DE1305C7D3788F0B98A28FEFECAD0D77 /* PromisesObjC */,
+				19E4FE6BA7D4875B59FAD220FCFA9EE4 /* SwiftLint */,
+				102C20C5338DC5E72F49EC876D20510A /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6DEA1ABCF062330D5AA9D3BFA6B93E1 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D9D22DE4BA95B98B055B070F90AD505B /* Frameworks */,
+				94CABFABE900E14CAE2F47CDC094713A /* Support Files */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		F03B1165AC1BEA91DD79F6E29CDC6411 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1DC188D27675C533DF64334CEFFC5991 /* GULMutableDictionary.h */,
+				AEAB9B8C7BF23DE7242C126AEB61E795 /* GULMutableDictionary.m */,
+				7F182BECADAC594546D75800A6280427 /* GULNetwork.h */,
+				08E0C648E72140A86B227E3BC7F795C7 /* GULNetwork.m */,
+				C3CFA4C8413C9E61A06D3FDD58B9BA8E /* GULNetworkConstants.h */,
+				0D9D82EA1FA26218F666CE4E703C36C6 /* GULNetworkConstants.m */,
+				5B5A84479C86B283FBB36133BC0FFCF2 /* GULNetworkLoggerProtocol.h */,
+				D2130D39B87182D81D890DD8653AA701 /* GULNetworkMessageCode.h */,
+				B4F329F54BE28718A3427BB2FA845E4F /* GULNetworkURLSession.h */,
+				6398FD83925A41EF103748A52EFD57F8 /* GULNetworkURLSession.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F12EA1DA440A10757B9DD64BF20AAD08 /* nanopb */ = {
+			isa = PBXGroup;
+			children = (
+				C7990670C8833DBD0C2BD815F39B1D88 /* pb.h */,
+				1E64875523BF64A3A870BDCCBBA1A38B /* pb_common.c */,
+				BA0313D8213F9479A57DFD872BB7C2C0 /* pb_common.h */,
+				CF3A38DFC2A950E37F8A87D55D16A0DF /* pb_decode.c */,
+				F67371518B8FDAE4A6A213242548F87F /* pb_decode.h */,
+				520FA8B91B0D563CC029AB154918400E /* pb_encode.c */,
+				CA5CBD46C7F310498674AFB12F68B7E6 /* pb_encode.h */,
+				8CCA8F7F23728C8DB509C596E333AACB /* decode */,
+				3E7C456576FD86A980443B5D3F2F3151 /* encode */,
+				8B2F502D041F56541A29AF72CF2402D5 /* Support Files */,
+			);
+			name = nanopb;
+			path = nanopb;
+			sourceTree = "<group>";
+		};
+		F70136B5645AB3D3B85FDFAA0C934A34 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				9552B1C701A0AE9CDBEB2834C1A45DA4 /* GULNSData+zlib.h */,
+				0B42B97B6489C2C0BE733ED60EC66411 /* GULNSData+zlib.m */,
+				6DF7459A1E9205A1993DB5B07C05F483 /* GULNSDataInternal.h */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9FB9C00C33E10663CD49B8E546B9FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B3CE40F5F6E2E65AAE939EE583C3A9 /* nanopb-umbrella.h in Headers */,
+				4E2FA5ADCCB0EAAD860217EDFF065AA4 /* pb.h in Headers */,
+				5C81CB2E64A3C184DD21AA98225318FE /* pb_common.h in Headers */,
+				BA4D5B9391CFB20947FA96B06EDE7DCF /* pb_decode.h in Headers */,
+				CDB0BB1BE0434EACEC6D54AD5E3CE846 /* pb_encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B379BA818DA4E8D1F5D09093D0E8D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F503EEB37C9EB913A5729F272F0BEB57 /* FlexColorPicker-umbrella.h in Headers */,
+				628E4E41AF4803E356AC335074A199B2 /* FlexColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF2DD87F0D1DB8408D6B8FEE0153542 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1921DAD36B5638D8E81CDA4EF6AB15 /* Pods-דוח 1 אוטומטי-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AEC33628A41E4DB4F487A822C3B2EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A868736C16E241C474F261050A699189 /* GoogleUtilities-umbrella.h in Headers */,
+				13DDB6921ECC4FA00BEDABC13CE3E357 /* GULAppDelegateSwizzler.h in Headers */,
+				5349FAF6B80C5CF36B56781E112FCEDB /* GULAppDelegateSwizzler_Private.h in Headers */,
+				A4713F508DF4F08175E6D19A2AA50952 /* GULAppEnvironmentUtil.h in Headers */,
+				1DFCE33479FF90BC23160116B85301ED /* GULApplication.h in Headers */,
+				18B57B52EB0899622037B495CCE4CEDE /* GULHeartbeatDateStorage.h in Headers */,
+				93A1EEBAB4393A5D728FFBF8241A9448 /* GULKeychainStorage.h in Headers */,
+				14FF62A678D787705298EA34261DA1CB /* GULKeychainUtils.h in Headers */,
+				DC3A134D104E4C0485DF18DA961DC7CD /* GULLogger.h in Headers */,
+				1A3FB3063B20E555AAFFA9688B21E7F0 /* GULLoggerCodes.h in Headers */,
+				012A4CB7AC430DD6EE5A81FB91834775 /* GULLoggerLevel.h in Headers */,
+				321A0A66714BB8DC08B553705470752B /* GULMutableDictionary.h in Headers */,
+				B47F25C52815098D1B6FD0749048FEFD /* GULNetwork.h in Headers */,
+				B288F1279DC53D05CBEFE7EF5D7017BB /* GULNetworkConstants.h in Headers */,
+				554CC04BEE793ECCCE92867C3F8B1F97 /* GULNetworkLoggerProtocol.h in Headers */,
+				58B30BF7610E3C67D665AD92490D22B7 /* GULNetworkMessageCode.h in Headers */,
+				0066C293E990368E6BA5738E78AE5454 /* GULNetworkURLSession.h in Headers */,
+				9FABCEAC2CE30A8177DF78CD43B17581 /* GULNSData+zlib.h in Headers */,
+				3D9AE0FBE76152F79057FBD97A73C2C6 /* GULNSDataInternal.h in Headers */,
+				5AA17A363BE016D85BBE2D5811E5C5F1 /* GULOriginalIMPConvenienceMacros.h in Headers */,
+				7D7D6E34E372249C53A47E16ACB56F9A /* GULReachabilityChecker+Internal.h in Headers */,
+				5C772C420D01D954799431F4AA534573 /* GULReachabilityChecker.h in Headers */,
+				BE81222D459F1115D1C508E6F66C9C2C /* GULReachabilityMessageCode.h in Headers */,
+				810FB4C6C56D51F04D43F9EDF072EF45 /* GULSceneDelegateSwizzler.h in Headers */,
+				4A1444F4264AECC4ABAC53E220A3D32F /* GULSceneDelegateSwizzler_Private.h in Headers */,
+				584C169D5F3F42CB2F89B5BFAAB14B31 /* GULSecureCoding.h in Headers */,
+				3638E1F4B51A24165FE387F643770A41 /* GULSwizzler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF1D9D14654F44443F6E17BCF8F460F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F160FE5699662CAAE5E56203589059 /* FBLPromise+All.h in Headers */,
+				3210D0B4982224A1F9ADAEBA1CCABA94 /* FBLPromise+Always.h in Headers */,
+				2C2D5F1F96B4AD73EDC95135BEF2C2A1 /* FBLPromise+Any.h in Headers */,
+				4B1065DDBFB423D0641C557A6BABE221 /* FBLPromise+Async.h in Headers */,
+				89872D37A1264E312EB97B8AC51F6A30 /* FBLPromise+Await.h in Headers */,
+				273C2505751C610D7FBF877BA4A04B38 /* FBLPromise+Catch.h in Headers */,
+				7D5BB9F92104834E8077D826DD345E77 /* FBLPromise+Delay.h in Headers */,
+				8F73BEBED23CC471E9C9A94DB0483974 /* FBLPromise+Do.h in Headers */,
+				CBFE0F0CB47360670906220C1A7FDAD7 /* FBLPromise+Race.h in Headers */,
+				7EA387A49A510FB6AEB0DBD5464E08BD /* FBLPromise+Recover.h in Headers */,
+				F7723B27C22FBDCD4FAA0AB6D879C67F /* FBLPromise+Reduce.h in Headers */,
+				990C8073C16A021E9B2FD3DE870E5A9F /* FBLPromise+Retry.h in Headers */,
+				9912BFE3AA2D7A7AC1DAA0B58F9C97F6 /* FBLPromise+Testing.h in Headers */,
+				AB10AF9FA4C9DC0E87969DCE7AF55444 /* FBLPromise+Then.h in Headers */,
+				660341A803CC005C2F9BCF5CEA0EB983 /* FBLPromise+Timeout.h in Headers */,
+				2860B8179593C0EF97309078F41E52E6 /* FBLPromise+Validate.h in Headers */,
+				792104130148816A97013C469FF20B56 /* FBLPromise+Wrap.h in Headers */,
+				536894393A06EFB67505F35492D0EDFB /* FBLPromise.h in Headers */,
+				38D877FC5933B063D071D04EDEA38176 /* FBLPromiseError.h in Headers */,
+				54F0D998DA3C010598E9D65B29560743 /* FBLPromisePrivate.h in Headers */,
+				457567E7EB3938197F59C460F16E4D36 /* FBLPromises.h in Headers */,
+				471AA39B5A0F425E650E2B9E69F86B2F /* PromisesObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F797236E9943400DC9B18DA5F8395299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E3B6D1D900E64A816A45FBD10D5354 /* AbstractActionSheetPicker.h in Headers */,
+				7A5FA2AF26C1E051151BC66F3C8639F8 /* ActionSheetCustomPicker.h in Headers */,
+				C0B1DE05CABBD89231D61791493DAC2C /* ActionSheetCustomPickerDelegate.h in Headers */,
+				54D224241A014C4C6DCBD2026B429D60 /* ActionSheetDatePicker.h in Headers */,
+				E0FAE2EEEE2AF98B6EA1B8B6F0B898BD /* ActionSheetDistancePicker.h in Headers */,
+				501D9D8444A4AC2A50E059E60053F48A /* ActionSheetLocalePicker.h in Headers */,
+				5E99A3596F5F638076161D06AB2CCC56 /* ActionSheetMultipleStringPicker.h in Headers */,
+				59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				61EE5ED52B7595E35B0BD57761511FED /* ActionSheetPicker.h in Headers */,
+				32165B3A0682954DD05178C9A7ED1187 /* ActionSheetStringPicker.h in Headers */,
+				A1237D1EEF827FF68FD99A8DD8BE73BF /* DistancePickerView.h in Headers */,
+				C65D0EE0041E43E7211946FD5B1E2CAD /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98AB9993E8B76A985E9E39B9FA8DB51 /* Build configuration list for PBXNativeTarget "PromisesObjC" */;
+			buildPhases = (
+				AFF1D9D14654F44443F6E17BCF8F460F /* Headers */,
+				F4DACEA579E47BB4CED03B54EB3EC2E5 /* Copy . Private Headers */,
+				CE92BFB867D415D6E116CEAD683838D3 /* Copy . Public Headers */,
+				9041A17DCF3D0E46E87201AAD971605F /* Sources */,
+				87CF806B2C69CC0E58A77757C9CCA2D9 /* Frameworks */,
+				184300101D77039BAAA78ECFD02417EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromisesObjC;
+			productName = PromisesObjC;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80BF90C0E64BF4E0E89C003FC192DD77 /* Pods-דוח 1 אוטומטי */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6259863B8A95ABB5B94BFA9C2FAA52 /* Build configuration list for PBXNativeTarget "Pods-דוח 1 אוטומטי" */;
+			buildPhases = (
+				7BF2DD87F0D1DB8408D6B8FEE0153542 /* Headers */,
+				C7630BDCC784E50CB139519910DC5FF4 /* Sources */,
+				3ABB424F6B5AB0B23A3046ACAF84328C /* Frameworks */,
+				66C7C9FA59C7928F79094DB3F880DD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF2DEEA10EAADA05482B2A5AA7CD9BB /* PBXTargetDependency */,
+				1406050FB2A383999B64124E4E9FDA86 /* PBXTargetDependency */,
+				B95098ED186938172E71D1DEA424602C /* PBXTargetDependency */,
+				F6D50EDA5C155DCBB0960F8F7BB7470D /* PBXTargetDependency */,
+				674AF3D41FB69BF64839676A913590CF /* PBXTargetDependency */,
+				22BDF8939CE3EF4E82D1FA69B45A0C89 /* PBXTargetDependency */,
+				55B3372B0BE70B6597A7C48ADB9DE3C5 /* PBXTargetDependency */,
+				81339F1871F2F2762C2D0D627B115FC9 /* PBXTargetDependency */,
+				2ED2A45273849E6DD908DDB0E277D5B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-דוח 1 אוטומטי";
+			productName = "Pods-דוח 1 אוטומטי";
+			productReference = 91C72B679EC891BF9C317B13AD8B39C2 /* Pods_____1________.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FF30130546A9413AC43100C1BC7F32 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */;
+			buildPhases = (
+				83AEC33628A41E4DB4F487A822C3B2EA /* Headers */,
+				96555A1C1E8E9DDB3798249D5318DD79 /* Sources */,
+				87609743FC3ADF2764CF488756C19E2F /* Frameworks */,
+				A2D9008F5FA64FA8CF25C8464B8E9563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11957E470CFFE1F6776BFCD44FC9371 /* PBXTargetDependency */,
+			);
+			name = GoogleUtilities;
+			productName = GoogleUtilities;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F221B4CC3F865593243380543E32F0 /* Build configuration list for PBXNativeTarget "FlexColorPicker" */;
+			buildPhases = (
+				56B379BA818DA4E8D1F5D09093D0E8D0 /* Headers */,
+				9914CFF469C6DC81E4ACD103F2DE2B43 /* Sources */,
+				687306F56E887C496BC0B5AC4FC0F5AE /* Frameworks */,
+				60510D7A1E8EB3E7DD2E2C5891B88C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexColorPicker;
+			productName = FlexColorPicker;
+			productReference = 741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				F797236E9943400DC9B18DA5F8395299 /* Headers */,
+				77D271DFD4264F58AC8B3DA2985D4C12 /* Sources */,
+				5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */,
+				0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6532A5210CA269ADE43484470A4FB9C9 /* Build configuration list for PBXNativeTarget "nanopb" */;
+			buildPhases = (
+				4E9FB9C00C33E10663CD49B8E546B9FF /* Headers */,
+				CE53B8F48634EFAA5135505335C4E3DA /* Sources */,
+				69D3B1FA58EE43F94930A4D6AE02E9F9 /* Frameworks */,
+				DA9631DBD4F3A6F86D20E51903352A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanopb;
+			productName = nanopb;
+			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9141426530C83C8A55682C0DAAB31B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */,
+				9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */,
+				FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */,
+				B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */,
+				8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */,
+				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
+				80BF90C0E64BF4E0E89C003FC192DD77 /* Pods-דוח 1 אוטומטי */,
+				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184300101D77039BAAA78ECFD02417EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60510D7A1E8EB3E7DD2E2C5891B88C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C7C9FA59C7928F79094DB3F880DD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D9008F5FA64FA8CF25C8464B8E9563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9631DBD4F3A6F86D20E51903352A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D271DFD4264F58AC8B3DA2985D4C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2CEF7FC1C8BD63FFBA2F8A2A7ECE69 /* AbstractActionSheetPicker.m in Sources */,
+				962434DC73678E1EDD58CF3104E3EAAF /* ActionSheetCustomPicker.m in Sources */,
+				3C99F666A03D126A532B981C376D36E2 /* ActionSheetDatePicker.m in Sources */,
+				1CD39DB36E257E75AEDF367E73C0F18B /* ActionSheetDistancePicker.m in Sources */,
+				F7A0DE31C56C4B610D8F93B6339D0D80 /* ActionSheetLocalePicker.m in Sources */,
+				C0FA04F6BE68E3E316F447CF9CBE3664 /* ActionSheetMultipleStringPicker.m in Sources */,
+				C31A1EC6B8C14C595A14E46A9C8A34DB /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				00DFB7240B7B74DE34A5CF777D7A0022 /* ActionSheetStringPicker.m in Sources */,
+				6A79626FEC7404480D85B72A4580773F /* DistancePickerView.m in Sources */,
+				7201235914FA344CF0F37B31C94DF58F /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041A17DCF3D0E46E87201AAD971605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA25AFF396829D757CD9FB440B50396D /* FBLPromise+All.m in Sources */,
+				59390C035BF9CD2BF2B277309C6672B1 /* FBLPromise+Always.m in Sources */,
+				931D630FBFF9ED6C43A12B9012CA3DEF /* FBLPromise+Any.m in Sources */,
+				5A483F32F096CAF40AB81BEA5744ABD0 /* FBLPromise+Async.m in Sources */,
+				B93BDDF7906B3B1FF35C3EF3D7FA6F05 /* FBLPromise+Await.m in Sources */,
+				E11CFECA49A9877BCE78D97CE15C8518 /* FBLPromise+Catch.m in Sources */,
+				94327BF293D3E896E852130A56588828 /* FBLPromise+Delay.m in Sources */,
+				4F2A411E89DB111CFB15A4CA23A79D64 /* FBLPromise+Do.m in Sources */,
+				6EB6E2701A2BAFA7A9813256F8DC0CA8 /* FBLPromise+Race.m in Sources */,
+				6FAF0B1E198BB86EAF0F9A056E030AC3 /* FBLPromise+Recover.m in Sources */,
+				2514EF71326883B7A3108130B6BBB047 /* FBLPromise+Reduce.m in Sources */,
+				31780B62AC8B44667EA384835E9B9B54 /* FBLPromise+Retry.m in Sources */,
+				7C45F2BEAFD9BF8D374AB55C40567CDD /* FBLPromise+Testing.m in Sources */,
+				2FAE947A69299CFC2679E64EF087A562 /* FBLPromise+Then.m in Sources */,
+				7F033167D3486CF00E5FA9711D78B653 /* FBLPromise+Timeout.m in Sources */,
+				2CB989802A26E0B2DA3C6B98355C007E /* FBLPromise+Validate.m in Sources */,
+				911E2CDA33BE5FF56F1B5F61A8862924 /* FBLPromise+Wrap.m in Sources */,
+				67BC6AE854A9420F38C9477834DD9D11 /* FBLPromise.m in Sources */,
+				FC01A3BA9058BEC37EAF22BC9045CB3B /* FBLPromiseError.m in Sources */,
+				4A341F155DEBB4EF5F8166DF2AA6CD61 /* PromisesObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96555A1C1E8E9DDB3798249D5318DD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EDAB974988C986520893826CF70ECE /* GoogleUtilities-dummy.m in Sources */,
+				5A1011970D44FEDC0F2F5A9EB2C402DA /* GULAppDelegateSwizzler.m in Sources */,
+				7EE69C2F3D814A321021DE61650AD012 /* GULAppEnvironmentUtil.m in Sources */,
+				610327AC4F84263FE7824ACD379EE002 /* GULHeartbeatDateStorage.m in Sources */,
+				A9036A49A6A1D65723A8DF68F9378D8A /* GULKeychainStorage.m in Sources */,
+				CF23315072FD8B32E2D580C9FDA27616 /* GULKeychainUtils.m in Sources */,
+				77870FA455398DA194AF35C5391B8BF6 /* GULLogger.m in Sources */,
+				72B4ACD83721768BD2B44655A69C9272 /* GULMutableDictionary.m in Sources */,
+				AC6D598B695B5B2C1C54E08CBAB59937 /* GULNetwork.m in Sources */,
+				7CE26796DFB4818A32EF6E1EB9C50F64 /* GULNetworkConstants.m in Sources */,
+				96303BE718F1F9F973F4D89CCB4946E3 /* GULNetworkURLSession.m in Sources */,
+				5C2BCCBD60827376E943BA8AAF694AB3 /* GULNSData+zlib.m in Sources */,
+				24D28E124DD73E3AFE021ECCA2B351F8 /* GULReachabilityChecker.m in Sources */,
+				1AE640D8325D7845CEEF6E300A77B7C5 /* GULSceneDelegateSwizzler.m in Sources */,
+				9FB9DBF32F0BBC5E89608383C8EA2F6D /* GULSecureCoding.m in Sources */,
+				2E30ABBD0EB1DA81F8C9789112993A98 /* GULSwizzler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9914CFF469C6DC81E4ACD103F2DE2B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA924EC9CDC460E0AB11C907338536 /* AbstractColorControl.swift in Sources */,
+				AA51A30B41AAF17ED91D5575A34C588F /* AdjustedHitBoxColorControl.swift in Sources */,
+				73C4BB11D9B72EB10CB956440BE94D07 /* CGPointExtension.swift in Sources */,
+				0DD0D7D8481A0B35706581ADFC0D3D05 /* CGRectExtension.swift in Sources */,
+				2E5F922CF0E1BF8E421012B4D231CAE0 /* CircleShapedView.swift in Sources */,
+				DF9B2C6CBA2A730C11A2479EBD92043F /* ColorControl.swift in Sources */,
+				65BECDB7E7C7DC8E0BF92BB909BF0FEE /* ColorControlContentView.swift in Sources */,
+				6FF09F8DD8ABC054228046AD4BF674E3 /* ColorPaletteControl.swift in Sources */,
+				7B8CD99C3781CAAAEAC354DD9D66F964 /* ColorPaletteDelegate.swift in Sources */,
+				43E3F86FE0D24056B34321EBC1870A1C /* ColorPickerController.swift in Sources */,
+				B5C5DB9F988BBA447BB8A33CEF3124BC /* ColorPickerControllerProtocol.swift in Sources */,
+				1F34954503AA438EDCE56B6C0C4B1572 /* ColorPickerDelegate.swift in Sources */,
+				CC6A3A74D473B97C19668E230E72AD0F /* ColorPickerThumbView.swift in Sources */,
+				717A554226F99383F1EDB062B925A74E /* ColorPreviewWithHex.swift in Sources */,
+				7FA21D55CA7C5E6DE7A457BDF31DB293 /* ColorSliderControl.swift in Sources */,
+				D42CC5AECED9C607B4BA5C0D0E6EDF4C /* ColorSliderDelegate.swift in Sources */,
+				1E6ED1C42B8230398ED65978B2C73FBF /* ComponentSliderControls.swift in Sources */,
+				62E52770944DE67E700217FEB8553005 /* ComponentSliderDelegates.swift in Sources */,
+				7DD551ECA2968E92E5FA9196DFDD5F99 /* ControlWithThumbView.swift in Sources */,
+				2217B09085C42A04A7FA22699722ABCB /* CustomColorPickerViewController.swift in Sources */,
+				508E7AEAFDE3A6922BA425DF6155F804 /* DefaultColorPickerViewController.swift in Sources */,
+				EAB465A1207D66DBA14B90762229AC21 /* FlexColorPicker-dummy.m in Sources */,
+				1B7D004B25F336B051546D5776182ACF /* GradientView.swift in Sources */,
+				9EA53ED1604965B404EE9535A3863D2B /* HSBColor.swift in Sources */,
+				F6D541970E1ACF2029A04CF95B3C85B1 /* LimitedGestureCircleView.swift in Sources */,
+				097306C5A7915D0D9116D05AEB10128A /* LimitedGestureViewDelegate.swift in Sources */,
+				5CA50929E58AD073A6FAA31F855BBE01 /* PaletteAwareScrollView.swift in Sources */,
+				59A0D77601C8C501D867F815BA5F4AB2 /* PaletteControls.swift in Sources */,
+				6BD08F9E1C9B2AEAB15B3CD8FB3AE2F9 /* RadialHSBPaletteDelegate.swift in Sources */,
+				E0D7E89FD3B59D435EFC5C84A1B4957D /* RectangularHSBPaletteDelegate.swift in Sources */,
+				6970FE083E3EB0101F07AABD048FCA86 /* UIColorExtension.swift in Sources */,
+				F7C0FFF4ED4B8369F8479CEB3436C940 /* UIImageExtension.swift in Sources */,
+				C823F5ED4938DBEDE5BB0B09D21704B6 /* UIImageViewExtension.swift in Sources */,
+				30C5772E2D03BFED463674797AA3A5C9 /* UIViewExtension.swift in Sources */,
+				07D58FF9FA31A2BF5E2CA4BB310176C6 /* UIViewWithCommonInit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7630BDCC784E50CB139519910DC5FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B1CA6089E32C7FB4CA42E21B68300F /* Pods-דוח 1 אוטומטי-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE53B8F48634EFAA5135505335C4E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD358E79879C041BCA4B9745935D9F /* nanopb-dummy.m in Sources */,
+				356A2B6A4D16AA71975361AA331AE04B /* pb_common.c in Sources */,
+				E76578A335F843EED1EFD7CB83113F73 /* pb_decode.c in Sources */,
+				57729609A8A2E3027BCC269ED35F7C9D /* pb_encode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1406050FB2A383999B64124E4E9FDA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexColorPicker;
+			target = 9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */;
+			targetProxy = 165313150BECD2F9D10E9CD4780C93C7 /* PBXContainerItemProxy */;
+		};
+		1B3ABB11ED2831175F72F4916A9A4D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
+			targetProxy = 57F9407E6B2A041A5C0FDC3661B6C0E6 /* PBXContainerItemProxy */;
+		};
+		22BDF8939CE3EF4E82D1FA69B45A0C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = 55EB47EE7B4E01F86B3334BAA0289CA3 /* PBXContainerItemProxy */;
+		};
+		23C482FA429A9C9290E24DC047237721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = 1A24B2391CF5CFCDE8BF3F2F02E83DAA /* PBXContainerItemProxy */;
+		};
+		2ED2A45273849E6DD908DDB0E277D5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
+			targetProxy = 02650CF26A789FC1E7729CBD3C43D664 /* PBXContainerItemProxy */;
+		};
+		55B3372B0BE70B6597A7C48ADB9DE3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 69643D1A987C21C32B76CB0C0E8BD86E /* PBXContainerItemProxy */;
+		};
+		674AF3D41FB69BF64839676A913590CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = 0E5CD91A06DE84E65BC0AAE183351201 /* PBXContainerItemProxy */;
+		};
+		81339F1871F2F2762C2D0D627B115FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 25814C2EA7C73058E19197A723F44AC4 /* PBXContainerItemProxy */;
+		};
+		A11957E470CFFE1F6776BFCD44FC9371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = 2949B80F0EC8E40B46CE0F5D8DE73A38 /* PBXContainerItemProxy */;
+		};
+		B95098ED186938172E71D1DEA424602C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 53547B1DFEEEB174535B78ADDD847377 /* PBXContainerItemProxy */;
+		};
+		F51131D7C1D67853ED8661708CC6F57A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAppMeasurement;
+			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
+			targetProxy = F859408B19099A6F0C6166AC65FF8D43 /* PBXContainerItemProxy */;
+		};
+		F6D50EDA5C155DCBB0960F8F7BB7470D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAppMeasurement;
+			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
+			targetProxy = C7A5E8B2BCF5D34DC67620959CCF65D0 /* PBXContainerItemProxy */;
+		};
+		FEF2DEEA10EAADA05482B2A5AA7CD9BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */;
+			targetProxy = BDBE64DEB599908D2F7B34C5EF4AEFD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A8FD4763985B8386073C9A3FCB56A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F042DE7A6A894CF0DD823244009FF4DE /* ActionSheetPicker-3.0.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E713F25F3FFD2263E551BACCF854C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B69312ED764F03141C360B7BFC9D4D /* nanopb.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		111E9456748D4079753698305333858A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02B71114CC75DF6A8F85FC496291C48 /* PromisesObjC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
+				PRODUCT_MODULE_NAME = FBLPromises;
+				PRODUCT_NAME = FBLPromises;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24767E858C6B0472612AC8A156B0D636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B287EC6F0A8AE49E618D86802FE7A778 /* Google-Mobile-Ads-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA66F79E10510D33DAFB0C24DB0EC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B72C8E93F436F9E2D13C9EE91A074B /* FlexColorPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FAAC522B0D8880D0E546CC51FD3AEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9B8833E72D0F188D31F286F49FCB6C /* GoogleUtilities.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		501C4DDF76F727E13770D67E891EDEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42A5001192863F28435C3D9452485C7 /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		602C06A63372A4CA70864059CFDFB3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689272A22E78BBC54A775F10F9ECD9C9 /* Pods-דוח 1 אוטומטי.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7553ABBE49A957D7781A5E184A1441A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665E741A73AAA90A4AEBC055CE1EB09F /* PromisesObjC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
+				PRODUCT_MODULE_NAME = FBLPromises;
+				PRODUCT_NAME = FBLPromises;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EA193259D1BE94A7CE661E6934946F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EC1631A815854783E13F69A85B1BC1 /* GoogleAppMeasurement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0498CE37626D2636F3A0D3C4DDDC244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49645C0BA584CFD42702949C747926A5 /* ActionSheetPicker-3.0.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6D1856327C32BF7B667BB2BEEAC10FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6CADC4B1C98525F239166246EA9367 /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A80F31491C9DADB0F8B6DB7459BE9496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC5A718D7690F520B9AEEC5B2FC4801 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B88603B2DD21A903942258374AB01E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238C55FFA1FF438B25E7C0A2AEDB834B /* nanopb.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9C7698B38D09B8EB380EE205AF889B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDFE24509D09325A9EFD47E744076C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357059A33A2B2252EF212F4294322F66 /* Google-Mobile-Ads-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C797E39D244810AF40513990BA5B478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019B8D7981387E5AE98F66A9C4A95EB9 /* GoogleUtilities.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3C61750CE380117EBC63EAA0B30AF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836446D0DE7E235DC757665F55394B51 /* GoogleAppMeasurement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8D7660DE008B3827C78F3FC72A44BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE2B32C11CAFB2042E3C2BDBAA34952 /* Pods-דוח 1 אוטומטי.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-דוח 1 אוטומטי/Pods-דוח 1 אוטומטי.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04944F047FE1BC997999D712AED7DF71 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EECB36BA436B8806163BC93A840C88C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97A7F17D9BCB611C34A1A227E8283B0 /* FlexColorPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0751E336E40C6BEC9EAA8EC91255BAAB /* Build configuration list for PBXAggregateTarget "GoogleAppMeasurement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA193259D1BE94A7CE661E6934946F1 /* Debug */,
+				D3C61750CE380117EBC63EAA0B30AF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C7698B38D09B8EB380EE205AF889B0 /* Debug */,
+				A80F31491C9DADB0F8B6DB7459BE9496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8FD4763985B8386073C9A3FCB56A80 /* Debug */,
+				A0498CE37626D2636F3A0D3C4DDDC244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D1856327C32BF7B667BB2BEEAC10FA /* Debug */,
+				501C4DDF76F727E13770D67E891EDEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6532A5210CA269ADE43484470A4FB9C9 /* Build configuration list for PBXNativeTarget "nanopb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88603B2DD21A903942258374AB01E0F /* Debug */,
+				0E713F25F3FFD2263E551BACCF854C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4502B7EC57138F1AB0EEABCF947BF8 /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24767E858C6B0472612AC8A156B0D636 /* Debug */,
+				BDFE24509D09325A9EFD47E744076C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98AB9993E8B76A985E9E39B9FA8DB51 /* Build configuration list for PBXNativeTarget "PromisesObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7553ABBE49A957D7781A5E184A1441A3 /* Debug */,
+				111E9456748D4079753698305333858A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F221B4CC3F865593243380543E32F0 /* Build configuration list for PBXNativeTarget "FlexColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA66F79E10510D33DAFB0C24DB0EC90 /* Debug */,
+				EECB36BA436B8806163BC93A840C88C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FF30130546A9413AC43100C1BC7F32 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C797E39D244810AF40513990BA5B478F /* Debug */,
+				3FAAC522B0D8880D0E546CC51FD3AEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6259863B8A95ABB5B94BFA9C2FAA52 /* Build configuration list for PBXNativeTarget "Pods-דוח 1 אוטומטי" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602C06A63372A4CA70864059CFDFB3FE /* Debug */,
+				DC8D7660DE008B3827C78F3FC72A44BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
